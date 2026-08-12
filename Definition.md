@@ -21,12 +21,14 @@ Here, $x$ = Fishmeal (kg), $y$ = Soy Protein (kg), $z$ = Wheat Flour (kg). The c
 **Definition:** A system of linear equations is a collection of two or more linear equations sharing the same set of variables. The goal is to find values for the variables that satisfy **all equations simultaneously**.
 
 **General Form:**
-$$\begin{aligned}
+$$
+\begin{aligned}
 a_{11}x_1 + a_{12}x_2 + \cdots + a_{1n}x_n &= b_1 \\
 a_{21}x_1 + a_{22}x_2 + \cdots + a_{2n}x_n &= b_2 \\
 &\vdots \\
 a_{m1}x_1 + a_{m2}x_2 + \cdots + a_{mn}x_n &= b_m
-\end{aligned}$$
+\end{aligned}
+$$
 
 **Aquaculture Example:**
 $$\begin{aligned}
