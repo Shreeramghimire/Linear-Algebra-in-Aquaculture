@@ -21,21 +21,17 @@ Here, $x$ = Fishmeal (kg), $y$ = Soy Protein (kg), $z$ = Wheat Flour (kg). The c
 **Definition:** A system of linear equations is a collection of two or more linear equations sharing the same set of variables. The goal is to find values for the variables that satisfy **all equations simultaneously**.
 
 **General Form:**
-$$
-\begin{aligned}
-a_{11}x_1 + a_{12}x_2 + \cdots + a_{1n}x_n &= b_1 \\
-a_{21}x_1 + a_{22}x_2 + \cdots + a_{2n}x_n &= b_2 \\
-&\vdots \\
-a_{m1}x_1 + a_{m2}x_2 + \cdots + a_{mn}x_n &= b_m
-\end{aligned}
-$$
+
+a₁₁x₁ + a₁₂x₂ + ⋯ + a₁ₙxₙ = b₁
+a₂₁x₁ + a₂₂x₂ + ⋯ + a₂ₙxₙ = b₂
+       ⋮
+aₘ₁x₁ + aₘ₂x₂ + ⋯ + aₘₙxₙ = bₘ
 
 **Aquaculture Example:**
-$$\begin{aligned}
-x + y + z &= 300 \quad \text{(Total mass)} \\
-30x + 15y + 10z &= 5250 \quad \text{(Protein target)} \\
-x - 2y &= 0 \quad \text{(Ratio constraint)}
-\end{aligned}$$
+
+x + y + z = 300           (Total mass)
+30x + 15y + 10z = 5250    (Protein target)
+x − 2y = 0                (Ratio constraint)
 
 **Key Insight:** A solution to a system is a set of values that makes all equations true simultaneously. In aquaculture, this means finding feed ingredient weights that meet all nutritional, mass, and biological constraints at once.
 
