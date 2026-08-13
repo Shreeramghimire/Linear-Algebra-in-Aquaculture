@@ -140,7 +140,7 @@ $$
 30 & 15 & 10 \\
 1 & -2 & 0
 \end{array}
-\middle\:
+\;\middle|\;
 \begin{array}{c}
 300 \\
 5250 \\
@@ -148,6 +148,7 @@ $$
 \end{array}
 \right]
 $$
+
 
 where:
 
