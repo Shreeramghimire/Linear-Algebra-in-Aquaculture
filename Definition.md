@@ -213,8 +213,8 @@ A matrix is in **Row Echelon Form (REF)** when it satisfies the following condit
 
 $$
 \begin{bmatrix}
-\boxed{1} & * & * & * \\
-0 & \boxed{*} & * & * \\
+\boxed{1} & * & * & *. \\
+0 & \boxed{*} & * & *  \\
 0 & 0 & \boxed{*} & *
 \end{bmatrix}
 $$
