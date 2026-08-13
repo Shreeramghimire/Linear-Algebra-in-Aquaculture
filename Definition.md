@@ -41,12 +41,11 @@ x − 2y = 0                (Ratio constraint)
 **Definition:** A matrix is a rectangular array of numbers arranged in horizontal rows and vertical columns. It compactly stores the numerical parameters of a system, allowing systematic manipulation.
 
 **General Form:**
-$$A = \begin{bmatrix}
-a_{11} & a_{12} & \cdots & a_{1n} \\
-a_{21} & a_{22} & \cdots & a_{2n} \\
-\vdots & \vdots & \ddots & \vdots \\
-a_{m1} & a_{m2} & \cdots & a_{mn}
-\end{bmatrix}$$
+
+A = [a₁₁  a₁₂  ⋯  a₁ₙ]
+    [a₂₁  a₂₂  ⋯  a₂ₙ]
+    [ ⋮    ⋮   ⋱   ⋮ ]
+    [aₘ₁  aₘ₂  ⋯  aₘₙ]
 
 **Notation:** A matrix with $m$ rows and $n$ columns is called an $m \times n$ matrix. $a_{ij}$ refers to the element in row $i$, column $j$.
 
