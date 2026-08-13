@@ -307,4 +307,9 @@ $$
 
 **Why RREF Matters:** RREF provides the solution directly without back-substitution. When the left side is the identity matrix (diagonal of 1s), the right column contains the solution. This is the gold standard for solving linear systems.
 
+This tells us:
+- $x = 100$ (Fishmeal)
+- $y = 50$ (Soy Protein)
+- $z = 150$ (Wheat Flour)
+
 ---
