@@ -211,13 +211,11 @@ A matrix is in **Row Echelon Form (REF)** when it satisfies the following condit
 
 ### REF Structure Example
 
-$$
-\begin{bmatrix}
-\boxed{1} & * & * & *. \\
-0 & \boxed{*} & * & *  \\
+$$\begin{bmatrix}
+\boxed{1} & * & * & * \\
+0 & \boxed{*} & * & * \\
 0 & 0 & \boxed{*} & *
-\end{bmatrix}
-$$
+\end{bmatrix}$$
 
 where $*$ represents any number, including zero.
 
