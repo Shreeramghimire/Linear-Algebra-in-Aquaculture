@@ -198,3 +198,81 @@ Each pivot anchors a column. The goal of Gaussian elimination is to create a tri
 **Rule:** A pivot must be non-zero. If a pivot is zero, we swap rows with a lower row containing a non-zero entry in that column.
 
 ---
+
+## Row Echelon Form (REF)
+
+### Definition
+
+A matrix is in **Row Echelon Form (REF)** when it satisfies the following conditions:
+
+1. **All zero rows are at the bottom** — Any row consisting entirely of zeros must appear below all non-zero rows.
+2. **Staggered pivots** — The leading entry (pivot) in each non-zero row must be strictly to the right of the pivot in the row above it.
+3. **Entries below each pivot are zero** — All entries below a pivot must be zero.
+
+### REF Structure Example
+
+$$
+\begin{bmatrix}
+\boxed{1} & * & * & * \\
+0 & \boxed{*} & * & * \\
+0 & 0 & \boxed{*} & *
+\end{bmatrix}
+$$
+
+where $*$ represents any number, including zero.
+
+The boxed entries represent the **pivots**. Notice how each pivot moves to the right as we move down the rows.
+
+### Aquaculture Example: REF
+
+Consider the augmented matrix:
+
+$$
+\begin{bmatrix}
+1 & 1 & 1 & 300 \\
+30 & 15 & 10 & 5250 \\
+1 & -2 & 0 & 0
+\end{bmatrix}
+$$
+
+After applying elementary row operations, it can be transformed into:
+
+$$
+\begin{bmatrix}
+1 & 1 & 1 & 300 \\
+0 & -15 & -20 & -3750 \\
+0 & 0 & 3 & 450
+\end{bmatrix}
+$$
+
+This matrix is in **Row Echelon Form (REF)** because:
+
+- The first pivot is in column 1.
+- The second pivot is in column 2.
+- The third pivot is in column 3.
+- Each pivot is to the right of the pivot above it.
+- All entries below each pivot are zero.
+- There are no zero rows in this example.
+
+### Why REF Matters
+
+REF reveals the **structure of a system of linear equations** and makes the system easier to solve using **back-substitution**.
+
+Starting from the bottom row:
+
+$$
+3x_3 = 450
+$$
+
+we can solve for $x_3$ first, then substitute its value into the second row, and finally solve for $x_1$.
+
+> **Important:** If a row of the form
+>
+> $$
+> \begin{bmatrix}
+> 0 & 0 & \cdots & 0 & | & c
+> \end{bmatrix},
+> \qquad c \neq 0
+> $$
+>
+> appears, it represents a contradiction such as $0 = c$. Therefore, the system has **no solution**.
