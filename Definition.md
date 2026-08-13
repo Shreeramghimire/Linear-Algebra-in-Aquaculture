@@ -295,7 +295,7 @@ $$
 \end{bmatrix}
 $$
 
-**Aquaculture Example (RREF):**
+**Example (RREF):**
 
 $$
 \begin{bmatrix}
