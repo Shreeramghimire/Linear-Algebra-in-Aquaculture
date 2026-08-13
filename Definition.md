@@ -219,7 +219,7 @@ $$
 \end{bmatrix}
 $$
 
-where $*$ represents any number, including zero.
+where $c$ represents any number, including zero.
 
 The boxed entries represent the **pivots**. Notice how each pivot moves to the right as we move down the rows.
 
