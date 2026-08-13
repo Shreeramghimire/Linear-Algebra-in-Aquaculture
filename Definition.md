@@ -342,3 +342,14 @@ Adding a scalar multiple of one row to another row.
 **Purpose:** This is the primary mechanism used to eliminate values and turn them into zeros.
 
 ---
+
+Quick Reference Card
+
+| Step | Operation | Matrix State |
+|------|-----------|--------------|
+| 1 | Start | Augmented Matrix |
+| 2 | Eliminate below pivots | Row Echelon Form (REF) |
+| 3 | Scale pivots to 1, eliminate above | Reduced Row Echelon Form (RREF) |
+| 4 | Read solution | Identity Matrix + Solution |
+
+---
