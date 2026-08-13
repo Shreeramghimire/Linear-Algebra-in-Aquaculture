@@ -286,15 +286,17 @@ We can solve for $x_3$ first, then substitute its value into the second row, and
 2. **Each pivot is the only non-zero entry in its entire column** — All entries above and below a pivot are zero
 
 **RREF Structure Example:**
+
 $$
 \begin{bmatrix}
-\boxed{1} & 0 & 0 & * \\
-0 & \boxed{1} & 0 & * \\
-0 & 0 & \boxed{1} & *
+\boxed{1} & 0 & 0 & c \\
+0 & \boxed{1} & 0 & c \\
+0 & 0 & \boxed{1} & c
 \end{bmatrix}
 $$
 
 **Aquaculture Example (RREF):**
+
 $$
 \begin{bmatrix}
 1 & 0 & 0 & 100 \\
