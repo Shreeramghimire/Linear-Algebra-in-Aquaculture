@@ -286,18 +286,22 @@ We can solve for $x_3$ first, then substitute its value into the second row, and
 2. **Each pivot is the only non-zero entry in its entire column** — All entries above and below a pivot are zero
 
 **RREF Structure Example:**
-$$\begin{bmatrix}
+$$
+\begin{bmatrix}
 \boxed{1} & 0 & 0 & * \\
 0 & \boxed{1} & 0 & * \\
 0 & 0 & \boxed{1} & *
-\end{bmatrix}$$
+\end{bmatrix}
+$$
 
 **Aquaculture Example (RREF):**
-$$\begin{bmatrix}
+$$
+\begin{bmatrix}
 1 & 0 & 0 & 100 \\
 0 & 1 & 0 & 50 \\
 0 & 0 & 1 & 150
-\end{bmatrix}$$
+\end{bmatrix}
+$$
 
 **Why RREF Matters:** RREF provides the solution directly without back-substitution. When the left side is the identity matrix (diagonal of 1s), the right column contains the solution. This is the gold standard for solving linear systems.
 
