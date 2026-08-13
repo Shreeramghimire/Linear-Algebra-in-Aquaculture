@@ -140,9 +140,11 @@ $$
 30 & 15 & 10 \\
 1 & -2 & 0
 \end{array}
+\begin{array}{c}
 \\ \:
 \\ \:
 \\ \:
+\end{array}
 \begin{array}{c}
 300 \\
 5250 \\
