@@ -56,7 +56,7 @@ $$
 
 where $a_{ij}$ refers to the element in **row $i$ and column $j$**.
 
- **Aquaculture Example: Coefficient Matrix**
+### Aquaculture Example: Coefficient Matrix
 
 For example, consider the following coefficient matrix:
 
@@ -82,7 +82,6 @@ Here, for example:
 - $a_{11} = 1$ → row 1, column 1
 - $a_{23} = 10$ → row 2, column 3
 - $a_{32} = -2$ → row 3, column 2
-
 Each row represents a constraint (mass, protein, ratio), and each column represents an ingredient (Fishmeal, Soy, Wheat).
 
 ---
