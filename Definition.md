@@ -162,7 +162,7 @@ where:
 
 ---
 
-Elementary Row Operations
+## Elementary Row Operations
 
 **Definition:** Elementary row operations are three mathematically valid transformations that alter a matrix's structure without changing the solution set of its underlying system. These operations are the tools we use to systematically solve systems.
 
