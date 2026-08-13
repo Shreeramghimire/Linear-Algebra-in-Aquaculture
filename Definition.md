@@ -159,3 +159,24 @@ where:
 - The **left side** contains the coefficient matrix $A$.
 - The **right side** contains the vector of constants $\mathbf{b}$.
 - The vertical line $|$ separates $A$ from $\mathbf{b}$.
+
+---
+
+Elementary Row Operations
+
+**Definition:** Elementary row operations are three mathematically valid transformations that alter a matrix's structure without changing the solution set of its underlying system. These operations are the tools we use to systematically solve systems.
+
+**The Three Operations:**
+
+| Operation | Notation | Description |
+|-----------|----------|-------------|
+| **Row Swapping** | $R_i \leftrightarrow R_j$ | Interchange two rows completely |
+| **Row Scaling** | $cR_i \to R_i$ | Multiply every entry in a row by a non-zero constant $c$ |
+| **Row Addition** | $R_i + cR_j \to R_i$ | Add a scalar multiple of one row to another row |
+
+**Aquaculture Application:**
+- **Row Swapping:** Bringing a row with a non-zero first entry to the top to create a clean pivot
+- **Row Scaling:** Converting 30 to 1 by multiplying $R_2$ by $1/30$
+- **Row Addition:** Eliminating the 30 below the first pivot by $R_2 - 30R_1$
+
+---
