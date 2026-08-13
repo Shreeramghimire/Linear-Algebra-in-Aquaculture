@@ -313,3 +313,32 @@ This tells us:
 - $z = 150$ (Wheat Flour)
 
 ---
+The Three Formal Rules of Row Transformations
+
+To manipulate matrices legally toward a solved state, you can only use these three operations:
+
+### Rule 1: Row Swapping (Interchange)
+
+Swapping the literal position of two rows.
+
+**Notation:** $R_i \leftrightarrow R_j$
+
+**Purpose:** Useful for bringing non-zero entries to top diagonal positions.
+
+### Rule 2: Row Scaling (Multiplication)
+
+Multiplying all numbers in a single row by a non-zero constant factor.
+
+**Notation:** $cR_i \to R_i$ (where $c \neq 0$)
+
+**Purpose:** Ideal for turning an arbitrary pivot value into a clean '1'.
+
+### Rule 3: Row Addition (Replacement)
+
+Adding a scalar multiple of one row to another row.
+
+**Notation:** $R_i + cR_j \to R_i$
+
+**Purpose:** This is the primary mechanism used to eliminate values and turn them into zeros.
+
+---
