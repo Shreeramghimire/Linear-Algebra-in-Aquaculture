@@ -50,11 +50,11 @@ A = [a₁₁  a₁₂  ⋯  a₁ₙ]
 **Notation:** A matrix with $m$ rows and $n$ columns is called an $m \times n$ matrix. $a_{ij}$ refers to the element in row $i$, column $j$.
 
 **Aquaculture Example (Coefficient Matrix):**
-$$A = \begin{bmatrix}
-1 & 1 & 1 \\
-30 & 15 & 10 \\
-1 & -2 & 0
-\end{bmatrix}$$
+**Coefficient Matrix:**
+
+A = [ 1    1    1  ]
+    [ 30   15   10 ]
+    [ 1   -2    0  ]
 
 Each row represents a constraint (mass, protein, ratio), and each column represents an ingredient (Fishmeal, Soy, Wheat).
 
