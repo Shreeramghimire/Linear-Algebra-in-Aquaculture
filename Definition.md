@@ -141,9 +141,9 @@ $$
 1 & -2 & 0
 \end{array}
 \begin{array}{c}
-:\\
-:\\
-:
+|\\
+|\\
+|
 \end{array}
 \begin{array}{c}
 300 \\
