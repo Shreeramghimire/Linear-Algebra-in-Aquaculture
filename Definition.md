@@ -85,3 +85,72 @@ Here, for example:
 Each row represents a constraint (mass, protein, ratio), and each column represents an ingredient (Fishmeal, Soy, Wheat).
 
 ---
+## Augmented Matrix
+
+**Definition:** An augmented matrix is derived by appending the columns of two matrices, typically the coefficients of a linear system on the left and the constant values (outputs) on the right, separated by a vertical line.
+
+
+### General Form: Augmented Matrix
+
+An **augmented matrix** combines the coefficient matrix $A$ with the right-hand-side vector $\mathbf{b}$.
+
+$$
+\left[
+\begin{array}{ccc|c}
+a_{11} & a_{12} & \cdots & b_1 \\
+a_{21} & a_{22} & \cdots & b_2 \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m1} & a_{m2} & \cdots & b_m
+\end{array}
+\right]
+$$
+
+The vertical line $|$ separates the **coefficient matrix** from the **right-hand-side values**.
+
+### Aquaculture Example
+
+For an aquaculture system with three unknowns, the augmented matrix can be written as:
+
+$$
+\left[
+\begin{array}{ccc|c}
+1 & 1 & 1 & 300 \\
+30 & 15 & 10 & 5250 \\
+1 & -2 & 0 & 0
+\end{array}
+\right]
+$$
+
+This represents the system of linear equations:
+
+$$
+\begin{aligned}
+x_1 + x_2 + x_3 &= 300 \\
+30x_1 + 15x_2 + 10x_3 &= 5250 \\
+x_1 - 2x_2 &= 0
+\end{aligned}
+$$
+
+The matrix can also be viewed as:
+
+$$
+\left[
+\begin{array}{ccc}
+1 & 1 & 1 \\
+30 & 15 & 10 \\
+1 & -2 & 0
+\end{array}
+\;\middle|\;
+\begin{array}{c}
+300 \\
+5250 \\
+0
+\end{array}
+\right]
+$$
+
+where:
+
+- The **left side** contains the coefficient matrix $A$.
+- The **right side** contains the vector of constants $\mathbf{b}$.
+- The vertical line $|$ separates $A$ from $\mathbf{b}$.
