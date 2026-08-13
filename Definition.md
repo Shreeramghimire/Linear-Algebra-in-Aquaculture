@@ -181,7 +181,7 @@ Elementary Row Operations
 
 ---
 
-Pivot (Leading Entry)
+## Pivot (Leading Entry)
 
 **Definition:** A pivot, also called a leading entry, is the first non-zero numerical coefficient in a matrix row when reading from left to right. Pivots are the anchors used to guide elimination steps.
 
