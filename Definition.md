@@ -180,3 +180,21 @@ Elementary Row Operations
 - **Row Addition:** Eliminating the 30 below the first pivot by $R_2 - 30R_1$
 
 ---
+
+Pivot (Leading Entry)
+
+**Definition:** A pivot, also called a leading entry, is the first non-zero numerical coefficient in a matrix row when reading from left to right. Pivots are the anchors used to guide elimination steps.
+
+**Aquaculture Example:** In the matrix below, the pivots are circled:
+
+$$\begin{bmatrix}
+\boxed{1} & 1 & 1 & 300 \\
+0 & \boxed{-15} & -20 & -3750 \\
+0 & 0 & \boxed{3} & 450
+\end{bmatrix}$$
+
+Each pivot anchors a column. The goal of Gaussian elimination is to create a triangular pattern of pivots, then scale them to 1.
+
+**Rule:** A pivot must be non-zero. If a pivot is zero, we swap rows with a lower row containing a non-zero entry in that column.
+
+---
