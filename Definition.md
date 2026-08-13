@@ -40,21 +40,48 @@ x − 2y = 0                (Ratio constraint)
 
 **Definition:** A matrix is a rectangular array of numbers arranged in horizontal rows and vertical columns. It compactly stores the numerical parameters of a system, allowing systematic manipulation.
 
-**General Form:**
+### General Form
 
-A = [a₁₁  a₁₂  ⋯  a₁ₙ]
-    [a₂₁  a₂₂  ⋯  a₂ₙ]
-    [ ⋮    ⋮   ⋱   ⋮ ]
-    [aₘ₁  aₘ₂  ⋯  aₘₙ]
+A matrix with $m$ rows and $n$ columns is called an **$m \times n$ matrix**.
 
-**Notation:** A matrix with $m$ rows and $n$ columns is called an $m \times n$ matrix. $a_{ij}$ refers to the element in row $i$, column $j$.
+$$
+A =
+\begin{bmatrix}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+a_{21} & a_{22} & \cdots & a_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m1} & a_{m2} & \cdots & a_{mn}
+\end{bmatrix}
+$$
 
-**Aquaculture Example (Coefficient Matrix):**
-**Coefficient Matrix:**
+where $a_{ij}$ refers to the element in **row $i$ and column $j$**.
 
-A = [ 1    1    1  ]
-    [ 30   15   10 ]
-    [ 1   -2    0  ]
+ **Aquaculture Example: Coefficient Matrix**
+
+For example, consider the following coefficient matrix:
+
+$$
+A =
+\begin{bmatrix}
+1 & 1 & 1 \\
+30 & 15 & 10 \\
+1 & -2 & 0
+\end{bmatrix}
+$$
+
+This is a **$3 \times 3$ matrix**, meaning it contains 3 rows and 3 columns.
+
+| Row | Column 1 | Column 2 | Column 3 |
+|---|---:|---:|---:|
+| 1 | 1 | 1 | 1 |
+| 2 | 30 | 15 | 10 |
+| 3 | 1 | -2 | 0 |
+
+Here, for example:
+
+- $a_{11} = 1$ → row 1, column 1
+- $a_{23} = 10$ → row 2, column 3
+- $a_{32} = -2$ → row 3, column 2
 
 Each row represents a constraint (mass, protein, ratio), and each column represents an ingredient (Fishmeal, Soy, Wheat).
 
