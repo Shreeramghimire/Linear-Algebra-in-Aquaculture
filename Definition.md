@@ -278,7 +278,7 @@ We can solve for $x_3$ first, then substitute its value into the second row, and
 > appears, it represents a contradiction such as $0 = c$. Therefore, the system has **no solution**.
 ---
 
-Reduced Row Echelon Form (RREF)
+## Reduced Row Echelon Form (RREF)
 
 **Definition:** Reduced Row Echelon Form is an advanced matrix structure meeting all REF requirements, with two additional constraints:
 
