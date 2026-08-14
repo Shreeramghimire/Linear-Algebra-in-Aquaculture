@@ -411,17 +411,13 @@ To determine whether they are independent, row-reduce the matrix and check wheth
 
 If there are three pivots:
 
-$$
-\operatorname{rank}(A)=3.
-$$
+$$ \operatorname{rank}(A)=3, $$
 
 then the three pond vectors are linearly independent.
 
 If there are fewer than three pivots:
 
-$$
-\operatorname{rank}(A)<3.
-$$
+$$ \operatorname{rank}(A)<3, $$
 
 then they are linearly dependent.
 
