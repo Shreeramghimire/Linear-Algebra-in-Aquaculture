@@ -304,13 +304,11 @@ Linear independence is closely connected to solving systems of linear equations.
 Form a matrix $A$ by placing the vectors as columns:
 
 $$
-\[
 A = \begin{bmatrix}
 | & | & & | \\
 v_1 & v_2 & \cdots & v_k \\
 | & | & & |
 \end{bmatrix}
-\]
 $$
 
 Then:
