@@ -1,5 +1,3 @@
-# Linear Independence: A Comprehensive Guide with Aquaculture Examples
-
 ## What is Linear Independence?
 
 **Linear independence** is a fundamental concept in linear algebra that describes whether a set of vectors contains unique information or whether some vectors can be constructed from others.
