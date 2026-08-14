@@ -600,8 +600,8 @@ The key idea is simple:
 
 **Scenario:** You measure three parameters (Temperature, pH, Dissolved Oxygen) in three different ponds:
 
-a = [25°C, 7.2, 8.0 mg/L]
-b = [25°C, 7.0, 7.5 mg/L]
+a = [25°C, 7.2, 8.0 mg/L],
+b = [25°C, 7.0, 7.5 mg/L],
 c = [25°C, 7.4, 8.5 mg/L]
 
 **Question:** Are these three water samples linearly independent?
