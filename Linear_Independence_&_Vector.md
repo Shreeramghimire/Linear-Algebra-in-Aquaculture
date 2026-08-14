@@ -591,3 +591,160 @@ In aquaculture, understanding linear independence can help when thinking about:
 The key idea is simple:
 
 > **A set of vectors is linearly independent if the only way to combine them and obtain the zero vector is to use zero coefficients for every vector. Otherwise, the vectors are linearly dependent.**
+
+---
+
+# Worked Examples from Aquaculture
+
+## Example 1: Three Water Quality Parameters in Three Ponds
+
+**Scenario:** You measure three parameters (Temperature, pH, Dissolved Oxygen) in three different ponds:
+
+a = [25°C, 7.2, 8.0 mg/L]
+b = [25°C, 7.0, 7.5 mg/L]
+c = [25°C, 7.4, 8.5 mg/L]
+
+**Question:** Are these three water samples linearly independent?
+
+---
+
+### Solution
+
+**Form matrix and row reduce:**
+
+
+**Result:** Column 3 has no pivot → **free variable exists.**
+
+**Conclusion:** The samples are **linearly dependent!**
+
+---
+
+### What This Means in Practice
+
+- Pond 3's water quality is just a combination of Ponds 1 and 2
+- You could have saved time and only sampled Ponds 1 and 2
+- Pond 3 adds **no new information**
+
+**Dependence relation:**
+
+2a − b − c = 0
+
+or:
+
+c = 2a − b
+
+**Practical implication:** If you know the water quality in Ponds 1 and 2, you can predict Pond 3's quality perfectly. **No need to sample it!**
+
+---
+
+## Example 2: Four Growth Measurements in Three Dimensions
+
+**Scenario:** You track four growth parameters (Weight, Length, Width, FCR) in a fish population, but you only have three independent factors affecting growth (Temperature, Feed, Stocking Density).
+
+**Question:** Are all four growth measurements linearly independent?
+
+---
+
+### Solution
+
+We have 4 measurements but only 3 controlling factors.
+
+**Rule:** If p > n (more measurements than factors), the set is automatically dependent.
+
+**Counterexample showing dependence:**
+
+Suppose you record fish weights from 4 different tanks:
+
+v₁ = [500g, 30cm, 10cm, 1.2]
+v₂ = [450g, 28cm, 9.5cm, 1.3]
+v₃ = [600g, 32cm, 11cm, 1.1]
+v₄ = [550g, 31cm, 10.5cm, 1.15]
+
+Since you have 4 vectors in 4-dimensional space R⁴, they could be independent. But in practice, growth parameters are often correlated.
+
+**Aquaculture reality:** Weight, Length, and Width are highly correlated in fish populations.
+
+Weight ≈ k × Length³ (allometric growth)
+
+So Weight is a function of Length!
+
+Therefore:
+
+v₄ (FCR) is related to growth rate → dependent on the other three!
+
+**Practical takeaway:** You don't need to measure Weight, Length, Width, AND FCR — they're all related. **Measure fewer things to save time and money!**
+
+---
+
+## Example 3: Adding a New Water Quality Parameter
+
+**Scenario:** Your farm currently monitors Temperature, pH, and Dissolved Oxygen. These three parameters are linearly independent — each tells you something different about water quality.
+
+**Question:** If you start measuring Ammonia (NH₃), and ammonia levels are not predictable from Temperature, pH, and DO, is the new set {Temp, pH, DO, Ammonia} linearly independent?
+
+---
+
+### Solution
+
+**YES!**
+
+**Why?** Ammonia adds genuinely new information. If ammonia were just a combination of the other three, you wouldn't need to measure it.
+
+**Proof:**
+
+- {Temperature, pH, DO} is linearly independent (proven by water quality analysis)
+- Ammonia is not in Span{Temperature, pH, DO} (ammonia levels depend on feeding rate, biofilter performance, etc. — not just those three)
+- Therefore, the new set {Temperature, pH, DO, Ammonia} is linearly independent
+
+---
+
+### Practical Implication
+
+- Each parameter adds unique information
+- You need all four for a complete water quality picture
+- Unlike Example 1, here all measurements matter
+
+**Real aquaculture example:**
+
+| Parameter | Role |
+|-----------|------|
+| **Temperature** | Affects DO solubility (related but not perfectly) |
+| **pH** | Affects ammonia toxicity (ammonia is more toxic at high pH) |
+| **DO** | Affects fish respiration (low DO means stress) |
+| **Ammonia** | A waste product (indicates overfeeding or filter failure) |
+
+Since none of these can be perfectly predicted from the others, they're all independent and **you should measure all four!**
+
+---
+
+## Example 4: Redundant Sampling in a Shrimp Pond
+
+**Scenario:** You take water samples from 5 different locations in a shrimp pond (edges, center, bottom, surface, outflow). You measure 3 parameters (Temperature, Salinity, pH).
+
+**Matrix shape:** m = 3 parameters, n = 5 sampling locations
+
+**Question:** True or false? Since the columns are linearly dependent, it must be that n > m.
+
+---
+
+### Solution
+
+**FALSE!**
+
+**Why?** The implication works one way only:
+
+- If n > m (more locations than parameters), columns **must** be dependent
+- But dependence can happen even when n ≤ m (fewer locations than parameters)
+
+**Aquaculture reality:**
+
+In a well-mixed pond, all 5 locations have nearly identical water quality. The columns are dependent because samples are redundant.
+
+But here, n = 5 and m = 3, so n > m IS true in this case!
+
+---
+
+### Better Counterexample
+
+Suppose you have 3 locations (surface, middle, bottom) and you measure 4 parameters (Temperature, Salinity, pH, DO):
+
