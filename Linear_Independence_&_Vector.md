@@ -741,10 +741,3 @@ Since none of these can be perfectly predicted from the others, they're all inde
 In a well-mixed pond, all 5 locations have nearly identical water quality. The columns are dependent because samples are redundant.
 
 But here, n = 5 and m = 3, so n > m IS true in this case!
-
----
-
-### Better Counterexample
-
-Suppose you have 3 locations (surface, middle, bottom) and you measure 4 parameters (Temperature, Salinity, pH, DO):
-
