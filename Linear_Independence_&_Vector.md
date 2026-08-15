@@ -38,7 +38,7 @@ In other words:
 
 ---
 
-# Key Theorems and Their Aquaculture Applications
+## Key Theorems and Their Aquaculture Applications
 
 ## 1. Sets of One or Two Vectors
 
