@@ -1,8 +1,5 @@
-Here is a clear two-part breakdown. **Part 1** covers the core principles and methods from your PDF (and general linear algebra). **Part 2** applies each of those methods to specific aquaculture scenarios with concrete examples, exactly as you requested.
 
----
-
-# Part 1: Linear and Matrix Transformations – Principles & Methods
+# Linear and Matrix Transformations – Principles & Methods
 
 ## 1.1 What is a Linear Transformation?
 
