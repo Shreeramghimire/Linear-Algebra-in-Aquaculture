@@ -20,11 +20,13 @@ For any linear transformation $T: \mathbb{R}^n \to \mathbb{R}^m$, there exists a
 $T(\vec{x}) = A\vec{x} \quad \text{for all } \vec{x} \in \mathbb{R}^n$
 
 **How to find $A$:**  
-Let $\vec{e}_1, \vec{e}_2, \dots, \vec{e}_n$ be the standard basis vectors of $\mathbb{R}^n$ (columns of the identity matrix). Then:
-
-$A = \begin{bmatrix} 
+Let $$\vec{e}_1, \vec{e}_2, \dots, \vec{e}_n$ be the standard basis vectors of $\mathbb{R}^n$ (columns of the identity matrix). Then:
+A = 
+$$
+\begin{bmatrix} 
 T(\vec{e}_1) & T(\vec{e}_2) & \cdots & T(\vec{e}_n)
-\end{bmatrix$
+\end{bmatrix
+$$
 
 **Example:**  
 If $T: \mathbb{R}^2 \to \mathbb{R}^3$ and $T(\vec{e}_1) = \begin{bmatrix}1\\0\\0\end{bmatrix}$, $T(\vec{e}_2) = \begin{bmatrix}0\\1\\0\end{bmatrix}$, then  
