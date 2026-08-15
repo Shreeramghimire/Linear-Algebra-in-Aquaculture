@@ -106,7 +106,7 @@ The second vector does not introduce a new mathematical direction; it is simply 
 
 ---
 
-# 2. Sets of Two or More Vectors
+## 2. Sets of Two or More Vectors
 
 ### Theorem
 
@@ -183,7 +183,7 @@ Therefore, linear independence is one mathematical tool within a larger optimiza
 
 ---
 
-# 3. More Vectors Than Dimensions
+## 3. More Vectors Than Dimensions
 
 ### Theorem
 
@@ -250,7 +250,7 @@ This does not necessarily tell us which particular sample is redundant. The actu
 
 ---
 
-# 4. Sets Containing the Zero Vector
+## 4. Sets Containing the Zero Vector
 
 ### Theorem
 
@@ -297,7 +297,7 @@ A zero vector should therefore be interpreted carefully in an actual aquaculture
 
 ---
 
-# The Matrix Connection: Pivot Columns and Free Variables
+## The Matrix Connection: Pivot Columns and Free Variables
 
 Linear independence is closely connected to solving systems of linear equations.
 
@@ -353,7 +353,7 @@ That column corresponds to a free variable.
 
 ---
 
-# Aquaculture Example: Pond Growth Data
+## Aquaculture Example: Pond Growth Data
 
 Suppose we monitor three ponds using five indicators:
 
@@ -426,7 +426,7 @@ then they are linearly dependent.
 
 ---
 
-# Practical Aquaculture Applications
+## Practical Aquaculture Applications
 
 ## 1. Water Quality Monitoring
 
@@ -460,7 +460,7 @@ In real environmental data, approximate relationships are more commonly observed
 
 ---
 
-# 2. Feed Formulation
+## 2. Feed Formulation
 
 Consider three ingredients represented by:
 
@@ -484,7 +484,7 @@ However, actual feed formulation normally involves additional constraints and is
 
 ---
 
-# 3. Experimental Design
+## 3. Experimental Design
 
 Linear independence can also help when designing experiments.
 
@@ -509,7 +509,7 @@ In practice, experimental design also requires consideration of:
 
 ---
 
-# 4. Production and Growth Data
+## 4. Production and Growth Data
 
 Suppose fish growth is represented using two variables:
 
@@ -547,7 +547,7 @@ is nonlinear with respect to $W$ and $L$. Linear independence should instead be 
 
 ---
 
-# Summary Table
+## Summary Table
 
 | Situation                        | Mathematical Meaning                          | Aquaculture Interpretation                                |
 | -------------------------------- | --------------------------------------------- | --------------------------------------------------------- |
@@ -561,7 +561,7 @@ is nonlinear with respect to $W$ and $L$. Linear independence should instead be 
 
 ---
 
-# Key Takeaway
+## Key Takeaway
 
 Think of **linear independence as a mathematical measure of unique directions in a dataset**.
 
@@ -594,7 +594,7 @@ The key idea is simple:
 
 ---
 
-# Worked Examples from Aquaculture
+## Worked Examples from Aquaculture
 
 ## Example 1: Three Water Quality Parameters in Three Ponds
 
