@@ -29,9 +29,11 @@ T(\vec{e}_1) & T(\vec{e}_2) & \cdots & T(\vec{e}_n)
 $$
 
 **Example:**  
-If $T: \mathbb{R}^2 \to \mathbb{R}^3$ and $T(\vec{e}_1) = \begin{bmatrix}1\\0\\0\end{bmatrix}$, $T(\vec{e}_2) = \begin{bmatrix}0\\1\\0\end{bmatrix}$, then  
-$A = \begin{bmatrix}1 & 0\\0 & 1\\0 & 0\end{bmatrix}$.
+If $T: \mathbb{R}^2 \to \mathbb{R}^3$ and $T(\vec{e}_1) = \begin{bmatrix}1\\0\\0\end{bmatrix}$, $T(\vec{e}_2) = \begin{bmatrix}0\\1\\0\end{bmatrix}$, then
 
+$$
+A = \begin{bmatrix}1 & 0\\0 & 1\\0 & 0\end{bmatrix}
+$$
 ---
 
 ## 1.3 Geometric Linear Transformations (from your PDF)
