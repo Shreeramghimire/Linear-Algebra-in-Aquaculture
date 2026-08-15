@@ -17,11 +17,7 @@ A transformation $T: \mathbb{R}^n \to \mathbb{R}^m$ is **linear** if it satisfie
 
 For any linear transformation $T: \mathbb{R}^n \to \mathbb{R}^m$, there exists a unique **$m \times n$ standard matrix** $A$ such that:
 
-$$
-
-T(\vec{x}) = A\vec{x} \quad \text{for all } \vec{x} \in \mathbb{R}^n
-
-$$
+$T(\vec{x}) = A\vec{x} \quad \text{for all } \vec{x} \in \mathbb{R}^n$
 
 **How to find $A$:**  
 Let $\vec{e}_1, \vec{e}_2, \dots, \vec{e}_n$ be the standard basis vectors of $\mathbb{R}^n$ (columns of the identity matrix). Then:
