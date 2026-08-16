@@ -59,14 +59,13 @@ $$
 
 | Transformation | Standard Matrix (2D) | Effect |
 |----------------|----------------------|--------|
-| **Horizontal shear** | $$\begin{bmatrix}1 & k\\0 & 1\end{bmatrix}$$ | Shifts points horizontally by an amount proportional to their height. |
-| **Vertical shear** | $$\begin{bmatrix}1 & 0\\k & 1\end{bmatrix}$$ | Shifts points vertically by an amount proportional to their x-coordinate. |
-| **Projection onto x-axis** | $$\begin{bmatrix}1 & 0\\0 & 0\end{bmatrix}$$ | Collapses all points onto the x-axis (loses y-information). |
-| **Projection onto y-axis** | $$\begin{bmatrix}0 & 0\\0 & 1\end{bmatrix}$$ | Collapses all points onto the y-axis. |
-| **Rotation by angle $\theta$** | $$\begin{bmatrix}\cos\theta & -\sin\theta\\\sin\theta & \cos\theta\end{bmatrix}$$ | Rotates points counterclockwise. |
-| **Reflection across x-axis** | $$\begin{bmatrix}1 & 0\\0 & -1\end{bmatrix}$$ | Flips points over the x-axis. |
-| **Scaling** | $$\begin{bmatrix}s & 0\\0 & s\end{bmatrix}$$ | Enlarges or shrinks uniformly. |
----
+| **Horizontal shear** | $\begin{bmatrix}1 & k\\0 & 1\end{bmatrix}$ | Shifts points horizontally by an amount proportional to their height. |
+| **Vertical shear** | $\begin{bmatrix}1 & 0\\k & 1\end{bmatrix}$ | Shifts points vertically by an amount proportional to their x-coordinate. |
+| **Projection onto x-axis** | $\begin{bmatrix}1 & 0\\0 & 0\end{bmatrix}$ | Collapses all points onto the x-axis (loses y-information). |
+| **Projection onto y-axis** | $\begin{bmatrix}0 & 0\\0 & 1\end{bmatrix}$ | Collapses all points onto the y-axis. |
+| **Rotation by angle $\theta$** | $\begin{bmatrix}\cos\theta & -\sin\theta\\\sin\theta & \cos\theta\end{bmatrix}$ | Rotates points counterclockwise. |
+| **Reflection across x-axis** | $\begin{bmatrix}1 & 0\\0 & -1\end{bmatrix}$ | Flips points over the x-axis. |
+| **Scaling** | $\begin{bmatrix}s & 0\\0 & s\end{bmatrix}$ | Enlarges or shrinks uniformly. |---
 
 ## 1.4 One-to-One (Injective) Transformations
 
