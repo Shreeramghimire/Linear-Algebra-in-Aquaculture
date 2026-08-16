@@ -186,7 +186,6 @@ c_1 & c_2 & c_3
 x_1 \\ x_2 \\ x_3
 \end{array} \right]
 $$
-
 - This is a linear transformation $T(\vec{x}) = A\vec{x}$.  
 - To hit a target nutrient profile $\vec{b} = \begin{bmatrix}40\\10\\30\end{bmatrix}$, solve $A\vec{x} = \vec{b}$.  
 - **Onto check:** If the columns of $A$ span $\mathbb{R}^3$, then any nutrient profile is achievable (the system is "onto"). If not, some diets are impossible.  
