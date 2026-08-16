@@ -170,22 +170,11 @@ A fish diet requires minimum amounts of protein (P), fat (F), and carbohydrates 
 - Let $x_1, x_2, x_3$ be the amounts (kg) of each ingredient.  
 - The nutrient delivery is:
 
-$$
-\left[ \begin{array}{c}
-\text{Protein} \\
-\text{Fat} \\
-\text{Carbs}
-\end{array} \right]
-= 
-\left[ \begin{array}{ccc}
-p_1 & p_2 & p_3 \\
-f_1 & f_2 & f_3 \\
-c_1 & c_2 & c_3
-\end{array} \right]
-\left[ \begin{array}{c}
-x_1 \\ x_2 \\ x_3
-\end{array} \right]
-$$
+<pre style="font-family: monospace; font-size: 16px; line-height: 1.8;">
+⎡Protein⎤   ⎡p₁  p₂  p₃⎤   ⎡x₁⎤
+⎢Fat    ⎥ = ⎢f₁  f₂  f₃⎥ · ⎢x₂⎥
+⎣Carbs  ⎦   ⎣c₁  c₂  c₃⎦   ⎣x₃⎦
+</pre>
 
 - This is a linear transformation $T(\vec{x}) = A\vec{x}$.  
 - To hit a target nutrient profile $\vec{b} = \begin{bmatrix}40\\10\\30\end{bmatrix}$, solve $A\vec{x} = \vec{b}$.  
