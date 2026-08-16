@@ -178,7 +178,7 @@ A fish diet requires minimum amounts of protein (P), fat (F), and carbohydrates 
 
 - This is a linear transformation $T(\vec{x}) = A\vec{x}$.  
 - To hit a target nutrient profile
-  $$
+$$
 \vec{b} = \begin{bmatrix}
 40 \\
 10 \\
