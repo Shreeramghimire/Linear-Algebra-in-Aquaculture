@@ -171,7 +171,6 @@ A fish diet requires minimum amounts of protein (P), fat (F), and carbohydrates 
 - The nutrient delivery is:
 
 $$
-
 \begin{bmatrix}
 \text{Protein} \\
 \text{Fat} \\
@@ -186,7 +185,6 @@ c_1 & c_2 & c_3
 \begin{bmatrix}
 x_1 \\ x_2 \\ x_3
 \end{bmatrix}
-
 $$
 
 - This is a linear transformation $T(\vec{x}) = A\vec{x}$.  
