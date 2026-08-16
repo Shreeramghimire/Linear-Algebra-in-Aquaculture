@@ -202,9 +202,7 @@ solve $A\vec{x} = \vec{b}$.
 Fish growth depends on temperature and feed. A simple linear state-space model:
 
 $$
-
 \vec{x}_{t+1} = A\vec{x}_t + B\vec{u}_t
-
 $$
 
 where:
