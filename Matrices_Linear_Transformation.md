@@ -180,7 +180,10 @@ A fish diet requires minimum amounts of protein (P), fat (F), and carbohydrates 
 - To hit a target nutrient profile
 
 $$
-\vec{b} = \begin{bmatrix} 40 & 10 & 30 \end{bmatrix}^T
+\vec{b} = \begin{bmatrix} 
+40 \\ 
+10 \\ 
+30 \end{bmatrix}
 $$
 
 solve $A\vec{x} = \vec{b}$.  
