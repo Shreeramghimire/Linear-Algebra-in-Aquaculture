@@ -59,13 +59,14 @@ $$
 
 | Transformation | Standard Matrix (2D) | Effect |
 |----------------|----------------------|--------|
-| **Horizontal shear** | `[1  k; 0  1]` | Shifts points horizontally by an amount proportional to their height. |
-| **Vertical shear** | `[1  0; k  1]` | Shifts points vertically by an amount proportional to their x-coordinate. |
-| **Projection onto x-axis** | `[1  0; 0  0]` | Collapses all points onto the x-axis (loses y-information). |
-| **Projection onto y-axis** | `[0  0; 0  1]` | Collapses all points onto the y-axis. |
-| **Rotation by angle θ** | `[cosθ  -sinθ; sinθ  cosθ]` | Rotates points counterclockwise. |
-| **Reflection across x-axis** | `[1  0; 0  -1]` | Flips points over the x-axis. |
-| **Scaling** | `[s  0; 0  s]` | Enlarges or shrinks uniformly. |
+| **Horizontal shear** | ⎡1 &nbsp; k⎤<br>⎣0 &nbsp; 1⎦ | Shifts points horizontally by an amount proportional to their height. |
+| **Vertical shear** | ⎡1 &nbsp; 0⎤<br>⎣k &nbsp; 1⎦ | Shifts points vertically by an amount proportional to their x-coordinate. |
+| **Projection onto x-axis** | ⎡1 &nbsp; 0⎤<br>⎣0 &nbsp; 0⎦ | Collapses all points onto the x-axis (loses y-information). |
+| **Projection onto y-axis** | ⎡0 &nbsp; 0⎤<br>⎣0 &nbsp; 1⎦ | Collapses all points onto the y-axis. |
+| **Rotation by angle θ** | ⎡cos θ &nbsp; −sin θ⎤<br>⎣sin θ &nbsp; cos θ⎦ | Rotates points counterclockwise. |
+| **Reflection across x-axis** | ⎡1 &nbsp; 0⎤<br>⎣0 &nbsp; −1⎦ | Flips points over the x-axis. |
+| **Scaling** | ⎡s &nbsp; 0⎤<br>⎣0 &nbsp; s⎦ | Enlarges or shrinks uniformly. |
+
 ## 1.4 One-to-One (Injective) Transformations
 
 **Definition:** $T$ is one-to-one if every output vector $\vec{b}$ comes from **at most one** input vector $\vec{x}$. Equivalently:
