@@ -30,108 +30,25 @@ $$
 
 **Example:**  
 
-### Example
 
-Problem Statement:
+If  
+\( T: \mathbb{R}^2 \to \mathbb{R}^3 \)  
+and  
 
-If
-T
-:
-R
-2
-→
-R
-3
-T:R 
-2
- →R 
-3
- 
-and
+$$
+T(\vec{e}_1) = \begin{bmatrix} 1 \\ 0 \\ 0 \end{bmatrix}, \quad
+T(\vec{e}_2) = \begin{bmatrix} 0 \\ 1 \\ 0 \end{bmatrix},
+$$
 
-T
-(
-e
-⃗
-1
-)
-=
-[
-1
-0
-0
-]
-,
-T
-(
-e
-⃗
-2
-)
-=
-[
-0
-1
-0
-]
-,
-T( 
-e
-  
-1
-​
- )= 
-​
-  
-1
-0
-0
-​
-  
-​
- ,T( 
-e
-  
-2
-​
- )= 
-​
-  
-0
-1
-0
-​
-  
-​
- ,
-then the standard matrix is
+then the standard matrix is  
 
-A
-=
-[
-1
-0
-0
-1
-0
-0
-]
-.
-A= 
-​
-  
-1
-0
-0
-​
-  
-0
-1
-0
-​
-  
-​
- .
+$$
+A = \begin{bmatrix}
+1 & 0 \\
+0 & 1 \\
+0 & 0
+\end{bmatrix}.
+$$
 ---
 
 ## 1.3 Geometric Linear Transformations (from your PDF)
