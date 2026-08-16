@@ -111,9 +111,7 @@ This is why your quiz question ("If a $4 \times 4$ matrix has 4 pivots, then any
 If $T_1: \mathbb{R}^n \to \mathbb{R}^m$ and $T_2: \mathbb{R}^m \to \mathbb{R}^p$, then the composition $T_2 \circ T_1$ has standard matrix:
 
 $$
-
 A = A_2 \cdot A_1
-
 $$
 
 This allows sequential processing (e.g., rotate, then scale, then project) to be combined into a single matrix multiplication.
