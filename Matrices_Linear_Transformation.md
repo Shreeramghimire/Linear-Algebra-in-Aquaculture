@@ -65,7 +65,7 @@ $$
 | **Projection onto y-axis** | $\begin{bmatrix}0 & 0\\0 & 1\end{bmatrix}$ | Collapses all points onto the y-axis. |
 | **Rotation by angle $\theta$** | $\begin{bmatrix}\cos\theta & -\sin\theta\\\sin\theta & \cos\theta\end{bmatrix}$ | Rotates points counterclockwise. |
 | **Reflection across x-axis** | $\begin{bmatrix}1 & 0\\0 & -1\end{bmatrix}$ | Flips points over the x-axis. |
-| **Scaling** | $\begin{bmatrix}s & 0\\0 & s\end{bmatrix}$ | Enlarges or shrinks uniformly. |---
+| **Scaling** | $\begin{bmatrix}s & 0\\0 & s\end{bmatrix}$ | Enlarges or shrinks uniformly. |
 
 ## 1.4 One-to-One (Injective) Transformations
 
