@@ -30,9 +30,8 @@ $$
 
 **Example:**  
 
-
 If  
-\( T: \mathbb{R}^2 \to \mathbb{R}^3 \)  
+$T: \mathbb{R}^2 \to \mathbb{R}^3$  
 and  
 
 $$
@@ -49,7 +48,6 @@ A = \begin{bmatrix}
 0 & 0
 \end{bmatrix}.
 $$
----
 
 ## 1.3 Geometric Linear Transformations (from your PDF)
 
