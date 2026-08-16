@@ -177,7 +177,15 @@ A fish diet requires minimum amounts of protein (P), fat (F), and carbohydrates 
 </pre>
 
 - This is a linear transformation $T(\vec{x}) = A\vec{x}$.  
-- To hit a target nutrient profile $\vec{b} = \begin{bmatrix} 40 \\ 10 \\ 30 \end{bmatrix}$, solve $A\vec{x} = \vec{b}$.  
+- To hit a target nutrient profile
+  $$
+\vec{b} = \begin{bmatrix}
+40 \\
+10 \\
+30
+\end{bmatrix}
+$$,
+solve $A\vec{x} = \vec{b}$.  
 - **Onto check:** If the columns of $A$ span $\mathbb{R}^3$, then any nutrient profile is achievable (the system is "onto"). If not, some diets are impossible.  
 - **One-to-one check:** If $A$ is invertible, the diet is unique; otherwise, multiple ingredient combinations give the same nutrients.
 
