@@ -147,9 +147,7 @@ Underwater cameras suffer from distortion due to water refraction and lens curva
 A smart aquaculture tank has sensors for temperature (T), salinity (S), pH, and turbidity (U). The dissolved oxygen level $y$ is a linear combination of these:
 
 $$
-
 y = a_1 T + a_2 S + a_3 \text{pH} + a_4 U
-
 $$
 
 - Collect historical data to form a matrix $X$ where rows are time points and columns are sensor readings.  
