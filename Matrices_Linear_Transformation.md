@@ -72,9 +72,7 @@ $$
 **Definition:** $T$ is one-to-one if every output vector $\vec{b}$ comes from **at most one** input vector $\vec{x}$. Equivalently:
 
 $$
-
 T(\vec{x}) = T(\vec{y}) \implies \vec{x} = \vec{y}
-
 $$
 
 **Test:** For a linear transformation $T(\vec{x}) = A\vec{x}$,  
