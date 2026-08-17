@@ -220,7 +220,7 @@ $$
 \vec{u}_t = 
 \begin{bmatrix}
 \text{temperature} \\ 
-\text{feed amount}\end{bmatrix}
+\text{feed amount} \end{bmatrix}
 $$
 ,
 - $A$ is a $2 \times 2$ growth matrix, $B$ is a $2 \times 2$ input matrix.
