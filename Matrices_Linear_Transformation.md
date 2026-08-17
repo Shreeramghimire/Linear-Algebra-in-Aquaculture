@@ -247,12 +247,9 @@ $$
 A drone flies over a circular fish pen, distributing feed evenly. Its position and orientation in 3D space are described by a **homogeneous transformation matrix**:
 
 $$
-
 M = \begin{bmatrix}
 R & \vec{t} \\
-0 & 1
-\end{bmatrix}
-
+0 & 1 \end{bmatrix}
 $$
 
 where $R$ is a $3 \times 3$ rotation matrix (linear transformation) and $\vec{t}$ is a translation vector.
