@@ -45,7 +45,7 @@ T(\vec{e}_2) = \begin{bmatrix}
 0 \end{bmatrix},
 $$
 
-then the standard matrix is  
+then the standard matrix is:
 
 $$
 A = \begin{bmatrix}
@@ -278,7 +278,7 @@ where $A$ is a $4 \times 4$ transition matrix (e.g., probability of moving to ne
 | Linear Algebra Method | Aquaculture Application |
 |------------------------|--------------------------|
 | Standard matrix $A = [T(\vec{e}_1) \dots]$ | Camera calibration for fish measurement |
-| One-to-one (unique pre-image) | Acoustic tracking: each fish has unique echo |
+| One-to-one (unique pre-image) | Acoustic tracking: each fish has a unique echo |
 | Onto (spanning the codomain) | Feed formulation: any nutrient profile achievable |
 | Shear transformations | Correcting current-induced net deformation |
 | Projection transformations | Collapsing 3D sonar to 1D for biomass estimates |
