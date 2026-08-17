@@ -206,7 +206,8 @@ $$
 $$
 
 where:
--
+1.
+
 $$
 \vec{x}_t = 
 \begin{bmatrix} 
@@ -215,6 +216,8 @@ $$
 $$ 
 
 at time $t$,
+
+2.
 
 $$
 \vec{u}_t = 
