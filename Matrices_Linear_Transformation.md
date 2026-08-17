@@ -215,11 +215,11 @@ $$
 $$ 
 
 at time $t$,
--
+
 $$
 \vec{u}_t = 
-\begin{bmatrix}\
-text{temperature} \\ 
+\begin{bmatrix}
+\text{temperature} \\ 
 \text{feed amount}\end{bmatrix}
 $$
 ,
