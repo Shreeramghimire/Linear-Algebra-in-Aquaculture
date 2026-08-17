@@ -514,7 +514,7 @@ Suppose fish growth is represented using two variables:
 $$
 v=
 \begin{bmatrix}
-\text{weight}\
+\text{weight, }\
 \text{length} \end{bmatrix}.
 $$
 
