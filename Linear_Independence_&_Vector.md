@@ -378,12 +378,11 @@ If the ponds are represented as **columns**, the matrix is:
 $$
 A=
 \begin{bmatrix}
-500 & 450 & 600\
-30 & 28 & 32\
-1.2 & 1.3 & 1.1\
-95 & 92 & 97\
-50 & 45 & 55
-\end{bmatrix}.
+500 & 450 & 600\\
+30 & 28 & 32\\
+1.2 & 1.3 & 1.1\\
+95 & 92 & 97\\
+50 & 45 & 55 \end{bmatrix}.
 $$
 
 This is a
