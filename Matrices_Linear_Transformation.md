@@ -272,9 +272,8 @@ Sea lice move through life stages: nauplius, copepodid, chalimus, adult. The pop
 The transition from week to week is:
 
 $$
-
-\vec{x}_{t+1} = A \vec{x}_t
-
+\vec{x}_{t+1} = 
+A \vec{x}_t
 $$
 
 where $A$ is a $4 \times 4$ transition matrix (e.g., probability of moving to next stage, mortality rates).
