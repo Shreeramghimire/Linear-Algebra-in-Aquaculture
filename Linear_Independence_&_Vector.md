@@ -515,9 +515,8 @@ Suppose fish growth is represented using two variables:
 $$
 v=
 \begin{bmatrix}
-\text{weight}\
-\text{length}
-\end{bmatrix}.
+\text{weight}\\
+\text{length} \end{bmatrix}.
 $$
 
 Measurements from different fish or time points can therefore be represented as vectors in $\mathbb{R}^2$.
