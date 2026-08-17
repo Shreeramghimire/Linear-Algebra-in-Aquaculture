@@ -261,10 +261,9 @@ Suppose:
 $$
 v_1=
 \begin{bmatrix}
-0\
-0\
-0
-\end{bmatrix}.
+0\\
+0\\
+0 \end{bmatrix}.
 $$
 
 Then:
