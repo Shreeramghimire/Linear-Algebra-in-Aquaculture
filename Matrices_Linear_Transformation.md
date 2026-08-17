@@ -215,7 +215,14 @@ $$
 $$ 
 
 at time $t$,
-- $\vec{u}_t = \begin{bmatrix}\text{temperature} \\ \text{feed amount}\end{bmatrix}$,
+-
+$
+\vec{u}_t = 
+\begin{bmatrix}\
+text{temperature} \\ 
+\text{feed amount}\end{bmatrix}
+$
+,
 - $A$ is a $2 \times 2$ growth matrix, $B$ is a $2 \times 2$ input matrix.
 
 - The **standard matrix** $A$ is learned from historical growth data.  
