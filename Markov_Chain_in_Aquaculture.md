@@ -237,3 +237,10 @@ $$
 0.10 & 0.20 & 0.70
 \end{bmatrix}
 $$
+
+
+This produces the expected distribution of fish states at the next time step.
+
+This is where linear algebra and probability come together.
+
+And this is particularly relevant to your broader work with linear algebra applications in aquaculture.
