@@ -152,6 +152,6 @@ P(H→D)=0.02
 
 Notice:
 
-0.90+0.08+0.02=1
+0.90 + 0.08 + 0.02 = 1
 
 This must always be true for all possible next states.
