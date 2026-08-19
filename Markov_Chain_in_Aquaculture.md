@@ -306,51 +306,49 @@ The original idea has developed considerably since Markov's work.
 
 A simplified historical progression is:
 
-## Historical Development and Applications
+\section{Historical Development and Applications}
 
-## Historical Development and Applications
-
-$$
+\[
 \begin{array}{c}
-\text{1900s} \\
+\text{Early 1900s} \\
 \downarrow \\
-\text{Markov's probability chains} \\
+\text{Andrey Markov: Markov Chains} \\
 \downarrow \\
-\text{Development of stochastic-process theory} \\
+\text{Development of Stochastic-Process Theory} \\
 \downarrow \\
-\text{Statistical \& mathematical modeling} \\
+\text{Statistical \& Mathematical Modeling} \\
 \downarrow \\
 \left\{
 \begin{array}{l}
-\text{Queueing systems} \\
-\text{Reliability} \\
-\text{Population models} \\
+\text{Queueing Systems} \\
+\text{Reliability Engineering} \\
+\text{Population Models} \\
 \text{Finance} \\
 \text{Genetics} \\
 \text{Physics}
 \end{array}
 \right. \\
 \downarrow \\
-\text{Computer science} \\
+\text{Computer Science \& Artificial Intelligence} \\
 \downarrow \\
 \left\{
 \begin{array}{l}
-\text{Search engines} \\
-\text{Natural language processing} \\
-\text{Speech recognition} \\
-\text{Recommendation systems}
+\text{Search Engines} \\
+\text{Natural Language Processing} \\
+\text{Speech Recognition} \\
+\text{Recommendation Systems}
 \end{array}
 \right. \\
 \downarrow \\
-\text{Modern probabilistic modeling} \\
+\text{Modern Probabilistic Modeling} \\
 \downarrow \\
 \left\{
 \begin{array}{l}
 \text{Hidden Markov Models} \\
-\text{Markov decision processes} \\
-\text{Monte Carlo methods} \\
-\text{Reinforcement learning}
+\text{Markov Decision Processes} \\
+\text{Markov Chain Monte Carlo (MCMC)} \\
+\text{Reinforcement Learning}
 \end{array}
 \right.
 \end{array}
-$$
+\]
