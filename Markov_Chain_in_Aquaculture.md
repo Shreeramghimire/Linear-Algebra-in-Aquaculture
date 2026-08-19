@@ -66,3 +66,5 @@ Here:
 - X₃ = Disease
 
 Other possible paths:
+
+Healthy → Mildly Stressed → Diseased → Recovered
