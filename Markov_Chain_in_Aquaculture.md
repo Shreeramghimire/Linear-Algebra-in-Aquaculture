@@ -155,3 +155,38 @@ Notice:
 0.90 + 0.08 + 0.02 = 1
 
 This must always be true for all possible next states.
+
+## Transition Matrix
+
+Instead of writing every transition individually, we can put all transition probabilities into a matrix.
+
+Suppose we have three states:
+
+S={H,S,D}
+
+The transition matrix might be:
+
+P=
+	​
+
+0.90
+0.30
+0.10
+	​
+
+0.08
+0.50
+0.20
+	​
+
+0.02
+0.20
+0.70
+	​
+
+	​
+
+
+The rows represent the current state.
+
+The columns represent the next state.
