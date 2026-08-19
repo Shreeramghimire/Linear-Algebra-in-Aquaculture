@@ -387,9 +387,13 @@ Transitions can occur at any point in time rather than at fixed intervals.
 For example:
 
 Healthy
+
    ↓
+   
 Stress
+
    ↓
+   
 Disease
 
 where the transitions occur according to rates rather than simply "every day."
