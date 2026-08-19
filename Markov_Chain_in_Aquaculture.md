@@ -271,3 +271,31 @@ $$
 
 
 This demonstrates the power of **matrix exponentiation** in modeling system evolution over time.
+
+It means we can use the transition matrix to estimate the state distribution several time periods into the future.
+
+### Self-Transitions
+
+An important concept is a self-transition.
+
+For example:
+
+H→H
+
+with probability:
+
+P(H→H)=0.90
+
+This means the system stays in the same state.
+
+In real applications, self-transitions are extremely common.
+
+For example:
+
+- Healthy fish → Healthy fish
+  
+- Good water quality → Good water quality
+  
+- Normal feeding → Normal feeding
+  
+- Low mortality → Low mortality
