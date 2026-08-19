@@ -224,3 +224,16 @@ We can multiply the current probability distribution by the transition matrix:
 π₁ = π₀ P
 
 So,
+
+$$
+\pi_1 = 
+\begin{bmatrix}
+0.80 & 0.15 & 0.05
+\end{bmatrix}
+\times
+\begin{bmatrix}
+0.90 & 0.08 & 0.02 \\
+0.30 & 0.50 & 0.20 \\
+0.10 & 0.20 & 0.70
+\end{bmatrix}
+$$
