@@ -72,3 +72,22 @@ Healthy → Mildly Stressed → Diseased → Recovered
 or,
 
 Healthy → Healthy → Healthy → Mildly Stressed
+
+## States
+The first important concept is a state.
+
+A state represents a condition or situation that the system can occupy.
+
+For example, consider fish health:
+
+S={H,S,D,R,M}
+
+where:
+
+H = Healthy
+S = Stressed
+D = Diseased
+R = Recovered
+M = Dead
+
+The system can move between these states.
