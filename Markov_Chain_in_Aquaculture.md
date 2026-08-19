@@ -392,3 +392,7 @@ where the transitions occur according to rates rather than simply "every day."
 
 This can become particularly interesting for **disease and mortality modeling**.
 
+### 3. Hidden Markov Model (HMM)
+
+
+
