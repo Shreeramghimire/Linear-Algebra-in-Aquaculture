@@ -223,3 +223,4 @@ Now something interesting happens.
 We can multiply the current probability distribution by the transition matrix:
 π₁ = π₀ P
 
+So,
