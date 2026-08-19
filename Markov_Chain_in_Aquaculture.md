@@ -130,3 +130,14 @@ D→R
 D→M
 
 The transition structure describes the behavior of the system.
+
+## Transition Probability
+The most important quantity in a Markov chain is the transition probability.
+
+Suppose historical farm data shows:
+
+When fish are currently Healthy:
+
+- 90% remain Healthy
+- 8% become Stressed
+- 2% become Diseased
