@@ -347,15 +347,16 @@ $$
 $$
 
 **Best to Remember**
+
 We can think of a Markov chain as a probabilistic state machine.
 
 A normal deterministic system might say:
 
-<**If temperature exceeds 15°C, fish enter Stress.**>
+>**If temperature exceeds 15°C, fish enter Stress.**
 
 A Markov model instead says:
 
-<**If fish are currently Healthy, there is a 90% probability they remain Healthy, an 8% probability they become Stressed, and a 2% probability they become Diseased during the next observation period.**>
+>**If fish are currently Healthy, there is a 90% probability they remain Healthy, an 8% probability they become Stressed, and a 2% probability they become Diseased during the next observation period.**
 
 That difference is important.
 
