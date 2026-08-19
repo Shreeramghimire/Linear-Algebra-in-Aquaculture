@@ -141,3 +141,17 @@ When fish are currently Healthy:
 - 90% remain Healthy
 - 8% become Stressed
 - 2% become Diseased
+
+Then:
+
+P(H→H)=0.90
+
+P(H→S)=0.08
+
+P(H→D)=0.02
+
+Notice:
+
+0.90+0.08+0.02=1
+
+This must always be true for all possible next states.
