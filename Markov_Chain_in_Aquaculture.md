@@ -308,6 +308,8 @@ A simplified historical progression is:
 
 ## Historical Development and Applications
 
+## Historical Development and Applications
+
 $$
 \begin{array}{c}
 \text{1900s} \\
@@ -316,9 +318,9 @@ $$
 \downarrow \\
 \text{Development of stochastic-process theory} \\
 \downarrow \\
-\text{Statistical \ and mathematical modeling} \\
+\text{Statistical \& mathematical modeling} \\
 \downarrow \\
-\left\{ \\
+\left\{
 \begin{array}{l}
 \text{Queueing systems} \\
 \text{Reliability} \\
@@ -331,7 +333,7 @@ $$
 \downarrow \\
 \text{Computer science} \\
 \downarrow \\
-\left\{ \\
+\left\{
 \begin{array}{l}
 \text{Search engines} \\
 \text{Natural language processing} \\
@@ -342,13 +344,13 @@ $$
 \downarrow \\
 \text{Modern probabilistic modeling} \\
 \downarrow \\
-\left\{ \\
+\left\{
 \begin{array}{l}
 \text{Hidden Markov Models} \\
 \text{Markov decision processes} \\
 \text{Monte Carlo methods} \\
 \text{Reinforcement learning}
 \end{array}
-\right. \end{array}
+\right.
+\end{array}
 $$
-
