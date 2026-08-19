@@ -349,7 +349,6 @@ $$
 \text{Monte Carlo methods} \\
 \text{Reinforcement learning}
 \end{array}
-\right.
-\end{array}
+\right. \end{array}
 $$
 
