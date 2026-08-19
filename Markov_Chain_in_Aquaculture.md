@@ -166,26 +166,13 @@ S={H,S,D}
 
 The transition matrix might be:
 
-P=
-	​
+|           | State 1 | State 2 | State 3 |
+|-----------|---------|---------|---------|
+| **State 1** | 0.90    | 0.08    | 0.02    |
+| **State 2** | 0.30    | 0.50    | 0.20    |
+| **State 3** | 0.10    | 0.20    | 0.70    |
 
-0.90
-0.30
-0.10
-	​
-
-0.08
-0.50
-0.20
-	​
-
-0.02
-0.20
-0.70
-	​
-
-	​
-
+Each row sums to 1.
 
 The rows represent the current state.
 
