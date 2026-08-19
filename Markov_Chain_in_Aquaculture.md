@@ -317,6 +317,7 @@ $$
 \downarrow \\
 \text{Statistical and Mathematical Modeling} \\
 \downarrow \\
+\begin{array}{c}
 \left\{
 \begin{array}{l}
 \text{Queueing Systems} \\
@@ -326,10 +327,12 @@ $$
 \text{Genetics} \\
 \text{Physics}
 \end{array}
-\right. \\
+\right.
+\end{array} \\
 \downarrow \\
 \text{Computer Science and Artificial Intelligence} \\
 \downarrow \\
+\begin{array}{c}
 \left\{
 \begin{array}{l}
 \text{Search Engines} \\
@@ -337,10 +340,12 @@ $$
 \text{Speech Recognition} \\
 \text{Recommendation Systems}
 \end{array}
-\right. \\
+\right.
+\end{array} \\
 \downarrow \\
 \text{Modern Probabilistic Modeling} \\
 \downarrow \\
+\begin{array}{c}
 \left\{
 \begin{array}{l}
 \text{Hidden Markov Models} \\
@@ -349,5 +354,6 @@ $$
 \text{Reinforcement Learning}
 \end{array}
 \right.
+\end{array}
 \end{array}
 $$
