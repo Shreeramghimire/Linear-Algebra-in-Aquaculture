@@ -207,11 +207,13 @@ We also need to know the distribution of the system at the beginning.
 
 Suppose we have 1,000 fish and:
 
-800 Healthy
-150 Stressed
-50 Diseased
+- 800 Healthy
+
+- 150 Stressed
+
+- 50 Diseased
 
 Then the initial probability vector is:
-π₀ = [0.80 0.15 0.05]
+π₀ = [0.80  0.15  0.05]
 
 This tells us the probability distribution at time t=0.
