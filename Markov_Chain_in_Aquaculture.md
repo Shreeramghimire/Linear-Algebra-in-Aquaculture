@@ -217,3 +217,9 @@ Then the initial probability vector is:
 π₀ = [0.80  0.15  0.05]
 
 This tells us the probability distribution at time t=0.
+
+Now something interesting happens.
+
+We can multiply the current probability distribution by the transition matrix:
+π₁ = π₀ P
+
