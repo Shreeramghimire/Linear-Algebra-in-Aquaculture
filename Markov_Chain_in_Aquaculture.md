@@ -306,3 +306,50 @@ The original idea has developed considerably since Markov's work.
 
 A simplified historical progression is:
 
+## Historical Development and Applications
+
+$$
+\begin{array}{c}
+\text{1900s} \\
+\downarrow \\
+\text{Markov's probability chains} \\
+\downarrow \\
+\text{Development of stochastic-process theory} \\
+\downarrow \\
+\text{Statistical \& mathematical modeling} \\
+\downarrow \\
+\left\{
+\begin{array}{l}
+\text{Queueing systems} \\
+\text{Reliability} \\
+\text{Population models} \\
+\text{Finance} \\
+\text{Genetics} \\
+\text{Physics}
+\end{array}
+\right. \\
+\downarrow \\
+\text{Computer science} \\
+\downarrow \\
+\left\{
+\begin{array}{l}
+\text{Search engines} \\
+\text{Natural language processing} \\
+\text{Speech recognition} \\
+\text{Recommendation systems}
+\end{array}
+\right. \\
+\downarrow \\
+\text{Modern probabilistic modeling} \\
+\downarrow \\
+\left\{
+\begin{array}{l}
+\text{Hidden Markov Models} \\
+\text{Markov decision processes} \\
+\text{Monte Carlo methods} \\
+\text{Reinforcement learning}
+\end{array}
+\right.
+\end{array}
+$$
+
