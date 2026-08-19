@@ -118,10 +118,15 @@ But not every transition needs to be possible.
 For example, we might define:
 
 H→H
+
 H→S
+
 S→H
+
 S→D
+
 D→R
+
 D→M
 
 The transition structure describes the behavior of the system.
