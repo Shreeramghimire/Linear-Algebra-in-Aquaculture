@@ -184,3 +184,15 @@ Each row sums to 1.
 The rows represent the current state.
 
 The columns represent the next state.
+
+
+So:
+
+| Current → Next | Healthy | Stressed | Diseased |
+|----------------|---------|----------|----------|
+| **Healthy**    | 0.90    | 0.08     | 0.02     |
+| **Stressed**   | 0.30    | 0.50     | 0.20     |
+| **Diseased**   | 0.10    | 0.20     | 0.70     |
+
+For example:
+
