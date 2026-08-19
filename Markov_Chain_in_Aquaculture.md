@@ -440,3 +440,5 @@ $$
 \quad\quad\quad\text{New fish-health state}
 \end{array}
 $$
+
+This becomes relevant when we want to move from prediction to decision-making.
