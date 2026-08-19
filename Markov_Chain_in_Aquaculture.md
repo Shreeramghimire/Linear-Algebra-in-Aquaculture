@@ -56,3 +56,13 @@ Imagine a fish farm monitoring fish health. The possible states are:
 
 A fish might move through states like this:
 Healthy → Healthy → Stress → Disease
+
+
+Here:
+
+- X₀ = Healthy
+- X₁ = Healthy
+- X₂ = Stress
+- X₃ = Disease
+
+Other possible paths:
