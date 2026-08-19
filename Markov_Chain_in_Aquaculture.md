@@ -361,3 +361,38 @@ A Markov model instead says:
 That difference is important.
 
 Real biological systems are uncertain. Markov chains give us a mathematical framework for representing that uncertainty.
+
+## Markov Chain in Aquaculture
+
+### 1. Discrete-time Markov chain
+
+The system changes at discrete intervals:
+
+t=0,1,2,3,…
+
+For example, fish health recorded:
+
+- Monday
+  
+- Tuesday
+  
+- Wednesday
+  
+- Thursday
+
+### Continuous-time Markov chain
+
+Transitions can occur at any point in time rather than at fixed intervals.
+
+For example:
+
+Healthy
+   ↓
+Stress
+   ↓
+Disease
+
+where the transitions occur according to rates rather than simply "every day."
+
+This can become particularly interesting for **disease and mortality modeling**.
+
