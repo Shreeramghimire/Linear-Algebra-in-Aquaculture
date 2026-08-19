@@ -426,13 +426,17 @@ A Markov Decision Process introduces actions:
 
 For example:
 
-Fish stressed
-      │
-      ├── Increase oxygen
-      │
-      ├── Reduce feeding
-      │
-      └── Increase water exchange
-             │
-             ▼
-        New fish-health state
+$$
+\begin{array}{l}
+\text{Fish stressed} \\
+\quad \downarrow \\
+\quad
+\begin{array}{ll}
+\text{├──} & \text{Increase oxygen} \\
+\text{├──} & \text{Reduce feeding} \\
+\text{└──} & \text{Increase water exchange}
+\end{array} \\
+\quad\quad\quad\quad\quad\quad\downarrow \\
+\quad\quad\quad\text{New fish-health state}
+\end{array}
+$$
