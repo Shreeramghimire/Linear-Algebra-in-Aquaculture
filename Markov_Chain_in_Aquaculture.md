@@ -394,5 +394,23 @@ This can become particularly interesting for **disease and mortality modeling**.
 
 ### 3. Hidden Markov Model (HMM)
 
+Sometimes we cannot directly observe the true state.
 
+For example, we may not know whether a fish is truly:
+
+Healthy → Stressed → Diseased
+
+Instead, we observe:
+
+- swimming behavior
+  
+- appetite
+  
+- oxygen consumption
+  
+- activity
+  
+- external appearance
+
+The actual health condition is hidden, while measurements are observable.
 
