@@ -24,3 +24,8 @@ Healthy → Healthy → Healthy → Mild Stress
 A Markov model asks:
 
 Given that the fish is currently Healthy, what is the probability that tomorrow it will be Healthy, Mildly Stressed, or Diseased?
+
+## History
+The idea comes from the Russian mathematician **Andrey Andreyevich Markov**. Markov developed this theory in the early 20th century.
+
+He was interested in probability theory and sequences of events, particularly whether events could be modeled when the probability of the next event depends on the previous event.
