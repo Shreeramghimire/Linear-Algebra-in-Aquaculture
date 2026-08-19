@@ -91,3 +91,14 @@ R = Recovered
 M = Dead
 
 The system can move between these states.
+For example:
+
+H→S
+
+means a healthy fish becomes stressed.
+
+And:
+
+D→R
+
+means a diseased fish recovers.
