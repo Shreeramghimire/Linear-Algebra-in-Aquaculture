@@ -416,5 +416,13 @@ The actual health condition is hidden, while measurements are observable.
 
 ### 4. Markov Decision Process
 
+A normal Markov chain describes:
 
+>**State→State**
+
+A Markov Decision Process introduces actions:
+
+>**State+Action→New State**
+
+For example:
 
