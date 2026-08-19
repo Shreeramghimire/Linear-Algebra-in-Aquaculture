@@ -316,7 +316,7 @@ $$
 \downarrow \\
 \text{Development of stochastic-process theory} \\
 \downarrow \\
-\text{Statistical \& mathematical modeling} \\
+\text{Statistical \ and mathematical modeling} \\
 \downarrow \\
 \left\{
 \begin{array}{l}
