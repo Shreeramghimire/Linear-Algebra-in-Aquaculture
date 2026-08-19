@@ -40,7 +40,7 @@ Where:
 - X₁ = state at time 1
 - X₂ = state at time 2
 - X₃ = state at time 3
-- etc.
+ etc.
 
 Each arrow (→) represents a possible transition from one state to the next.
 
