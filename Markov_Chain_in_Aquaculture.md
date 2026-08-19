@@ -442,3 +442,30 @@ $$
 $$
 
 This becomes relevant when we want to move from prediction to decision-making.
+
+
+Once we define these states and estimate their transition probabilities from historical data, we can build a Markov model.
+
+For example:
+
+$$
+P = 
+\begin{bmatrix}
+0.85 & 0.12 & 0.03 \\
+0.30 & 0.50 & 0.20 \\
+0.05 & 0.15 & 0.80
+\end{bmatrix}
+$$
+
+could represent the probability of moving among three fish-health states.
+
+Then we can ask meaningful questions such as:
+
+- What is the probability that a healthy fish population will enter a high-risk condition within the next 7 days?
+
+- What proportion of the population is expected to remain healthy after 30 days?
+
+- What is the long-term probability of being in each health state?
+
+That is where Markov chains move from:
+
