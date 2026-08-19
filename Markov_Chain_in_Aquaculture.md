@@ -318,7 +318,7 @@ $$
 \downarrow \\
 \text{Statistical \ and mathematical modeling} \\
 \downarrow \\
-\left\{
+\left\{ \\
 \begin{array}{l}
 \text{Queueing systems} \\
 \text{Reliability} \\
@@ -331,7 +331,7 @@ $$
 \downarrow \\
 \text{Computer science} \\
 \downarrow \\
-\left\{
+\left\{ \\
 \begin{array}{l}
 \text{Search engines} \\
 \text{Natural language processing} \\
@@ -342,7 +342,7 @@ $$
 \downarrow \\
 \text{Modern probabilistic modeling} \\
 \downarrow \\
-\left\{
+\left\{ \\
 \begin{array}{l}
 \text{Hidden Markov Models} \\
 \text{Markov decision processes} \\
