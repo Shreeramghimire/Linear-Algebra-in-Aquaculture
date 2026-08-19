@@ -197,3 +197,8 @@ So:
 For example:
 
 P₁₂ = 0.08
+
+
+This means:
+
+If the fish is currently **Healthy**, there is an **8%** probability that it will be **Stressed** in the next observation period.
