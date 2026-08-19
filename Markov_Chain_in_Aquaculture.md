@@ -172,6 +172,10 @@ The transition matrix might be:
 | **State 2** | 0.30    | 0.50    | 0.20    |
 | **State 3** | 0.10    | 0.20    | 0.70    |
 
+P = [0.90 0.08 0.02]
+[0.30 0.50 0.20]
+[0.10 0.20 0.70]
+
 Each row sums to 1.
 
 The rows represent the current state.
