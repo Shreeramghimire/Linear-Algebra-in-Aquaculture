@@ -299,3 +299,10 @@ For example:
 - Normal feeding → Normal feeding
   
 - Low mortality → Low mortality
+
+## Evolution of Markov Chain Theory
+
+The original idea has developed considerably since Markov's work.
+
+A simplified historical progression is:
+
