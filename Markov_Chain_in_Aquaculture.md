@@ -69,4 +69,6 @@ Other possible paths:
 
 Healthy → Mildly Stressed → Diseased → Recovered
 
+or
+
 Healthy → Healthy → Healthy → Mildly Stressed
