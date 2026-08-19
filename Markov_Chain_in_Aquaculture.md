@@ -196,3 +196,4 @@ So:
 
 For example:
 
+P₁₂ = 0.08
