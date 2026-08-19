@@ -317,43 +317,32 @@ $$
 \downarrow \\
 \text{Statistical and Mathematical Modeling} \\
 \downarrow \\
-\begin{array}{c}
-\left\{
 \begin{array}{l}
-\text{Queueing Systems} \\
-\text{Reliability Engineering} \\
-\text{Population Models} \\
-\text{Finance} \\
-\text{Genetics} \\
-\text{Physics}
-\end{array}
-\right.
+\quad \text{Queueing Systems} \\
+\quad \text{Reliability Engineering} \\
+\quad \text{Population Models} \\
+\quad \text{Finance} \\
+\quad \text{Genetics} \\
+\quad \text{Physics}
 \end{array} \\
 \downarrow \\
 \text{Computer Science and Artificial Intelligence} \\
 \downarrow \\
-\begin{array}{c}
-\left\{
 \begin{array}{l}
-\text{Search Engines} \\
-\text{Natural Language Processing} \\
-\text{Speech Recognition} \\
-\text{Recommendation Systems}
-\end{array}
-\right.
+\quad \text{Search Engines} \\
+\quad \text{Natural Language Processing} \\
+\quad \text{Speech Recognition} \\
+\quad \text{Recommendation Systems}
 \end{array} \\
 \downarrow \\
 \text{Modern Probabilistic Modeling} \\
 \downarrow \\
-\begin{array}{c}
-\left\{
 \begin{array}{l}
-\text{Hidden Markov Models} \\
-\text{Markov Decision Processes} \\
-\text{Markov Chain Monte Carlo (MCMC)} \\
-\text{Reinforcement Learning}
-\end{array}
-\right.
+\quad \text{Hidden Markov Models} \\
+\quad \text{Markov Decision Processes} \\
+\quad \text{Markov Chain Monte Carlo (MCMC)} \\
+\quad \text{Reinforcement Learning}
 \end{array}
 \end{array}
 $$
+
