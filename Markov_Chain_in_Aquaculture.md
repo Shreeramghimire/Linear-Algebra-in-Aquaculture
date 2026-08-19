@@ -244,3 +244,30 @@ This produces the expected distribution of fish states at the next time step.
 This is where linear algebra and probability come together.
 
 And this is particularly relevant to your broader work with linear algebra applications in aquaculture.
+
+**Iterating the Markov Chain**
+
+We can repeat the process:
+
+$$
+\pi_1 = \pi_0 P
+$$
+
+$$
+\pi_2 = \pi_1 P
+$$
+
+Therefore:
+
+$$
+\pi_2 = \pi_0 P^2
+$$
+
+And generally:
+
+$$
+\pi_n = \pi_0 P^n
+$$
+
+
+This demonstrates the power of **matrix exponentiation** in modeling system evolution over time.
