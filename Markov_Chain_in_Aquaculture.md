@@ -102,3 +102,26 @@ And:
 D→R
 
 means a diseased fish recovers.
+
+Transitions
+
+A transition is movement from one state to another.
+
+For example:
+
+H→S
+
+is a transition from Healthy to Stressed.
+
+But not every transition needs to be possible.
+
+For example, we might define:
+
+H→H
+H→S
+S→H
+S→D
+D→R
+D→M
+
+The transition structure describes the behavior of the system.
