@@ -380,7 +380,7 @@ For example, fish health recorded:
   
 - Thursday
 
-### Continuous-time Markov chain
+### 2. Continuous-time Markov chain
 
 Transitions can occur at any point in time rather than at fixed intervals.
 
