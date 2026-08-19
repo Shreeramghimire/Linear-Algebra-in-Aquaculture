@@ -315,7 +315,7 @@ $$
 \downarrow \\
 \text{Development of Stochastic-Process Theory} \\
 \downarrow \\
-\text{Statistical \& Mathematical Modeling} \\
+\text{Statistical and Mathematical Modeling} \\
 \downarrow \\
 \left\{
 \begin{array}{l}
@@ -328,7 +328,7 @@ $$
 \end{array}
 \right. \\
 \downarrow \\
-\text{Computer Science \& Artificial Intelligence} \\
+\text{Computer Science and Artificial Intelligence} \\
 \downarrow \\
 \left\{
 \begin{array}{l}
