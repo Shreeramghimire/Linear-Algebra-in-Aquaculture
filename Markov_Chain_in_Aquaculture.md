@@ -306,9 +306,8 @@ The original idea has developed considerably since Markov's work.
 
 A simplified historical progression is:
 
-\section{Historical Development and Applications}
 
-\[
+$$
 \begin{array}{c}
 \text{Early 1900s} \\
 \downarrow \\
@@ -351,4 +350,4 @@ A simplified historical progression is:
 \end{array}
 \right.
 \end{array}
-\]
+$$
