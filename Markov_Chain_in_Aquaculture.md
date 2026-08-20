@@ -533,8 +533,8 @@ $$
 
 Future state probabilities can then be estimated using:
 
-
+$$
 \pi_{t+k}=\pi_tP^k
-]
+$$
 
 where (\pi_t) is the current state-probability vector.
