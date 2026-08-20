@@ -638,3 +638,7 @@ The available sea-temperature variable can also be incorporated:
 $$
 P(X_{t+1}|X_t,Temperature_t)
 $$
+
+Additional variables such as cycle age and geographical region may subsequently be evaluated.
+
+Latitude and longitude can be used to investigate spatial variation in transition behavior and to produce locality-level risk maps.
