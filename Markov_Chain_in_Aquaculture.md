@@ -505,8 +505,10 @@ Key variables include:
 
 - female_lice
   
-latitude
-longitude
-sea_temperature
+- latitude
+  
+- longitude
+
+- sea_temperature
 
 The longitudinal structure of the data makes it suitable for modeling transitions in lice-risk states over time.
