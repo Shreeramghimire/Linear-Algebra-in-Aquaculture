@@ -597,3 +597,10 @@ This allows lice dynamics to be compared according to the stage of the productio
 
 The model can estimate the probability of future threshold exceedance for each active locality.
 
+For example:
+
+$$
+Risk_i(t+k)=P(L_{i,t+k}\geq0.5)
+$$
+
+A locality currently at 0.38 female lice/fish might therefore have estimated probabilities such as:
