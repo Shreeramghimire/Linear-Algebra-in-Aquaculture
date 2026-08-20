@@ -488,3 +488,21 @@ $$
 where (L_t) represents adult female lice per fish and (0.5) is the Norwegian regulatory threshold.
 
 The model will provide locality-level probabilities of future threshold exceedance, rather than simply predicting a single future lice count.
+
+### Dataset
+
+The dataset contains weekly observations from Norwegian salmon-farming localities from 2020 through week 31 of 2026.
+
+Key variables include:
+
+- year
+  
+- week
+locality_name
+locality_number
+female_lice
+latitude
+longitude
+sea_temperature
+
+The longitudinal structure of the data makes it suitable for modeling transitions in lice-risk states over time.
