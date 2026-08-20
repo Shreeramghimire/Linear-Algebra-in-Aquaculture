@@ -620,3 +620,21 @@ This provides an early-warning framework rather than only a point forecast.
 A single transition matrix for 2020–2026 may be too simplistic because sea-lice dynamics are seasonal.
 
 Therefore, the analysis should compare:
+
+**Basic Markov model**
+
+$$
+P(X_{t+1}|X_t)
+$$
+
+with a seasonal model:
+
+[
+P(X_{t+1}|X_t,Season_t)
+]
+
+The available sea-temperature variable can also be incorporated:
+
+[
+P(X_{t+1}|X_t,Temperature_t)
+]
