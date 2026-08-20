@@ -592,3 +592,8 @@ CycleAge_t=\text{weeks since stocking}
 $$
 
 This allows lice dynamics to be compared according to the stage of the production cycle.
+
+### Locality-Level Prediction
+
+The model can estimate the probability of future threshold exceedance for each active locality.
+
