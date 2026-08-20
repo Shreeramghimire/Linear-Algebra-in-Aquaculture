@@ -550,3 +550,7 @@ An initial proposed classification is:
 | S2    | 0.50–<0.80       | Threshold exceeded |
 | S3    | 0.80–<1.00       | High lice level |
 | S4    | ≥ 1.00           | Very high lice level |
+
+The 0.50 female lice/fish level represents the regulatory threshold. The other boundaries are analytical categories and should be evaluated against the observed data and relevant biological/industry guidance before finalization.
+
+The state structure allows the model to capture both escalation and recovery:
