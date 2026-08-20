@@ -470,3 +470,6 @@ Then we can ask meaningful questions such as:
 That is where Markov chains move from:
 
 Mathematical theory → Statistical modeling → Practical aquaculture decision support
+
+----
+
