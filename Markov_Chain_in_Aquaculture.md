@@ -586,3 +586,9 @@ Therefore, missing observations after harvest must not be interpreted as zero li
 Each locality should be assigned a production-cycle identifier where possible.
 
 A useful additional variable is:
+
+$$
+CycleAge_t=\text{weeks since stocking}
+$$
+
+This allows lice dynamics to be compared according to the stage of the production cycle.
