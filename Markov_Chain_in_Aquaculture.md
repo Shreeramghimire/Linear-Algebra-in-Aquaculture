@@ -485,7 +485,7 @@ $$
 P(L_{t+k} \geq 0.5)
 $$
 
-where (L_t) represents adult female lice per fish and (0.5) is the Norwegian regulatory threshold.
+where ($L_t$) represents adult female lice per fish and (0.5) is the Norwegian regulatory threshold.
 
 The model will provide locality-level probabilities of future threshold exceedance, rather than simply predicting a single future lice count.
 
