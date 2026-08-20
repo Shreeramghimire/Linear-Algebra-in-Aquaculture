@@ -543,3 +543,10 @@ where ($\pi_t$) is the current state-probability vector.
 Adult female lice will be converted from continuous measurements into discrete analytical states.
 An initial proposed classification is:
 
+| State | Female lice/fish | Interpretation |
+|-------|------------------|----------------|
+| S0    | < 0.10           | Baseline / very low |
+| S1    | 0.10–<0.50       | Trigger / early warning |
+| S2    | 0.50–<0.80       | Threshold exceeded |
+| S3    | 0.80–<1.00       | High lice level |
+| S4    | ≥ 1.00           | Very high lice level |
