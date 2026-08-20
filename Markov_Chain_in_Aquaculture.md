@@ -604,3 +604,4 @@ Risk_i(t+k)=P(L_{i,t+k}\geq0.5)
 $$
 
 A locality currently at 0.38 female lice/fish might therefore have estimated probabilities such as:
+
