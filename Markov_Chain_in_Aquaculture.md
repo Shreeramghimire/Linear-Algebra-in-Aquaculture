@@ -697,3 +697,6 @@ $$
 **Basic validation design**
 
 Train the model using:
+
+2020 ─────────────── 2025
+       TRAINING
