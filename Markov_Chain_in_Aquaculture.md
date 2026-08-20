@@ -605,3 +605,8 @@ $$
 
 A locality currently at 0.38 female lice/fish might therefore have estimated probabilities such as:
 
+| Forecast horizon | Probability of ≥0.5 |
+|------------------|---------------------|
+| 1 week           | 0.12                |
+| 4 weeks          | 0.31                |
+| 8 weeks          | 0.48                |
