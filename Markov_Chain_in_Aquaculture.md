@@ -23,6 +23,11 @@ Healthy → Healthy → Healthy → Mild Stress
 
 A Markov model asks:
 
+2020 ─────────────── 2025
+       TRAINING
+
+   
+
 Given that the fish is currently Healthy, what is the probability that tomorrow it will be Healthy, Mildly Stressed, or Diseased?
 
 ## History
