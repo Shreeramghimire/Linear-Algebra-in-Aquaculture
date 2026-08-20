@@ -699,5 +699,5 @@ $$
 Train the model using:
 
 $$
-\text{2020} \to \text{TRAINING} \to \text{2025}
+\text{2020} \longrightarrow \text{TRAINING} \longrightarrow \text{2025}
 $$
