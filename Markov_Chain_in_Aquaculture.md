@@ -540,3 +540,6 @@ $$
 where ($\pi_t$) is the current state-probability vector.
 
 ### Lice Risk States
+Adult female lice will be converted from continuous measurements into discrete analytical states.
+An initial proposed classification is:
+
