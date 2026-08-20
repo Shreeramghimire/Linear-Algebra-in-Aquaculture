@@ -688,3 +688,7 @@ $$
 ----
 
 ## Model Validation
+
+**Basic validation design**
+
+Train the model using:
