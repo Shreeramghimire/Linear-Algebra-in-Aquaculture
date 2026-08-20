@@ -658,3 +658,7 @@ This allows investigation of questions such as:
 - How does the transition from harvest/fallow to a new cycle affect early-cycle lice risk?
 
 Previous-cycle characteristics may be explored as potential predictors, while recognizing that biological carry-over should not be assumed automatically.
+
+### Model Development Strategy
+
+The analysis will progressively increase in complexity:
