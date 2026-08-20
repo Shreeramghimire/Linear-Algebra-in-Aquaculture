@@ -537,4 +537,4 @@ $$
 \pi_{t+k}=\pi_tP^k
 $$
 
-where (\pi_t) is the current state-probability vector.
+where ($pi_t$) is the current state-probability vector.
