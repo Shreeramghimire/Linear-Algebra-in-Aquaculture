@@ -580,3 +580,9 @@ $$
 \rightarrow
 \text{New Production Cycle}
 $$
+
+Therefore, missing observations after harvest must not be interpreted as zero lice or as a normal state transition.
+
+Each locality should be assigned a production-cycle identifier where possible.
+
+A useful additional variable is:
