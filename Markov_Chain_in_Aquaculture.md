@@ -649,7 +649,8 @@ Because the dataset covers approximately six years, many localities may contain 
 
 This allows investigation of questions such as:
 
-Do lice dynamics differ between production cycles?
+- Do lice dynamics differ between production cycles?
+  
 Does cycle age affect transition probabilities?
 Does a locality with high lice levels in one cycle show different risk in its subsequent cycle?
 How does the transition from harvest/fallow to a new cycle affect early-cycle lice risk?
