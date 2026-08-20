@@ -554,3 +554,13 @@ An initial proposed classification is:
 The 0.50 female lice/fish level represents the regulatory threshold. The other boundaries are analytical categories and should be evaluated against the observed data and relevant biological/industry guidance before finalization.
 
 The state structure allows the model to capture both escalation and recovery:
+
+$$
+S0\rightarrow S1\rightarrow S2\rightarrow S3\rightarrow S4
+$$
+
+and:
+
+$$
+S4\rightarrow S3\rightarrow S2\rightarrow S1\rightarrow S0
+$$
