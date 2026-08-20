@@ -629,12 +629,12 @@ $$
 
 with a seasonal model:
 
-[
+$$
 P(X_{t+1}|X_t,Season_t)
-]
+$$
 
 The available sea-temperature variable can also be incorporated:
 
-[
+$$
 P(X_{t+1}|X_t,Temperature_t)
-]
+$$
