@@ -663,4 +663,21 @@ Previous-cycle characteristics may be explored as potential predictors, while re
 
 The analysis will progressively increase in complexity:
 
-Raw weekly lice data ↓ Identify production cycles ↓ Define lice-risk states ↓ Estimate transition probabilities ↓ Basic Markov chain ↓ Seasonal Markov chain ↓ Add temperature / cycle age ↓ Evaluate locality and spatial effects ↓ Forecast future lice-risk states
+
+1. Raw weekly lice data
+   ↓
+2. Identify production cycles
+   ↓
+3. Define lice-risk states
+   ↓
+4. Estimate transition probabilities
+   ↓
+5. Basic Markov chain
+   ↓
+6. Seasonal Markov chain
+   ↓
+7. Add temperature / cycle age
+   ↓
+8. Evaluate locality and spatial effects
+   ↓
+9. Forecast future lice-risk states
