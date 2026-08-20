@@ -610,3 +610,7 @@ A locality currently at 0.38 female lice/fish might therefore have estimated pro
 | 1 week           | 0.12                |
 | 4 weeks          | 0.31                |
 | 8 weeks          | 0.48                |
+
+These values are illustrative; actual probabilities will be estimated from the historical dataset.
+
+This provides an early-warning framework rather than only a point forecast.
