@@ -538,3 +538,5 @@ $$
 $$
 
 where ($\pi_t$) is the current state-probability vector.
+
+### Lice Risk States
