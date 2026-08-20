@@ -498,9 +498,13 @@ Key variables include:
 - year
   
 - week
-locality_name
-locality_number
-female_lice
+  
+- locality_name
+
+- locality_number
+
+- female_lice
+  
 latitude
 longitude
 sea_temperature
