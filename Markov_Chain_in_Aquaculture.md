@@ -481,9 +481,9 @@ This project will investigate whether Markov chain models can be used to describ
 
 The primary objective is to estimate:
 
-[
+$$
 P(L_{t+k} \geq 0.5)
-]
+$$
 
 where (L_t) represents adult female lice per fish and (0.5) is the Norwegian regulatory threshold.
 
