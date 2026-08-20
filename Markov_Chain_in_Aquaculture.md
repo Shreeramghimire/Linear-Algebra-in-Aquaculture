@@ -519,7 +519,8 @@ A Markov chain models a system that moves between discrete states over time.
 
 The fundamental assumption is the Markov property:
 
+$$
 P(X_{t+1}|X_t)
-]
+$$
 
 In practical terms, the probability of the next lice state depends primarily on the current lice state.
