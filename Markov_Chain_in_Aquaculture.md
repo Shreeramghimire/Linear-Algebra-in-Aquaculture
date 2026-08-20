@@ -527,13 +527,13 @@ In practical terms, the probability of the next lice state depends primarily on 
 
 A transition matrix (P) describes the probability of moving from one state to another:
 
-[
+$$
 P_{ij}=P(X_{t+1}=j|X_t=i)
-]
+$$
 
 Future state probabilities can then be estimated using:
 
-[
+
 \pi_{t+k}=\pi_tP^k
 ]
 
