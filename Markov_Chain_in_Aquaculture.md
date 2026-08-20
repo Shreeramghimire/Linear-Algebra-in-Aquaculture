@@ -653,7 +653,8 @@ This allows investigation of questions such as:
   
 - Does cycle age affect transition probabilities?
   
-Does a locality with high lice levels in one cycle show different risk in its subsequent cycle?
-How does the transition from harvest/fallow to a new cycle affect early-cycle lice risk?
+- Does a locality with high lice levels in one cycle show different risk in its subsequent cycle?
+
+- How does the transition from harvest/fallow to a new cycle affect early-cycle lice risk?
 
 Previous-cycle characteristics may be explored as potential predictors, while recognizing that biological carry-over should not be assumed automatically.
