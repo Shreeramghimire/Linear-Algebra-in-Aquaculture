@@ -570,3 +570,13 @@ $$
 A major feature of Norwegian salmon production is that a locality does not operate continuously.
 
 A locality may experience:
+
+$$
+\text{Production Cycle}
+\rightarrow
+\text{Harvest}
+\rightarrow
+\text{Fallow}
+\rightarrow
+\text{New Production Cycle}
+$$
