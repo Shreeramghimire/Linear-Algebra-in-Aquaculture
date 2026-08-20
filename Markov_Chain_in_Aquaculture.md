@@ -564,3 +564,9 @@ and:
 $$
 S4\rightarrow S3\rightarrow S2\rightarrow S1\rightarrow S0
 $$
+
+### Production-Cycle Structure
+
+A major feature of Norwegian salmon production is that a locality does not operate continuously.
+
+A locality may experience:
