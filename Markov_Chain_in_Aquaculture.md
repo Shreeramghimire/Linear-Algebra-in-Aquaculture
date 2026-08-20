@@ -642,3 +642,16 @@ $$
 Additional variables such as cycle age and geographical region may subsequently be evaluated.
 
 Latitude and longitude can be used to investigate spatial variation in transition behavior and to produce locality-level risk maps.
+
+### Production Cycles and Repeated Localities
+
+Because the dataset covers approximately six years, many localities may contain observations from multiple production cycles.
+
+This allows investigation of questions such as:
+
+Do lice dynamics differ between production cycles?
+Does cycle age affect transition probabilities?
+Does a locality with high lice levels in one cycle show different risk in its subsequent cycle?
+How does the transition from harvest/fallow to a new cycle affect early-cycle lice risk?
+
+Previous-cycle characteristics may be explored as potential predictors, while recognizing that biological carry-over should not be assumed automatically.
