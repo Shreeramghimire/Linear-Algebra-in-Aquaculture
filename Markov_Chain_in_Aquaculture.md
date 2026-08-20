@@ -614,3 +614,9 @@ A locality currently at 0.38 female lice/fish might therefore have estimated pro
 These values are illustrative; actual probabilities will be estimated from the historical dataset.
 
 This provides an early-warning framework rather than only a point forecast.
+
+### Seasonality and Environmental Factors
+
+A single transition matrix for 2020–2026 may be too simplistic because sea-lice dynamics are seasonal.
+
+Therefore, the analysis should compare:
