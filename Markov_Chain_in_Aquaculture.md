@@ -729,3 +729,9 @@ We repeat this for every locality for every week.
 $$
 BS = \frac{1}{N} \sum_{i=1}^{N} (p_i - y_i)^2
 $$
+
+Lower is better.
+
+It tells us whether our predicted probabilities are accurate.
+
+
