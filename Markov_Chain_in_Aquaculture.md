@@ -721,3 +721,9 @@ P(SW1​=S2​)=0.18
 Then we compare that with the actual observation in 2026-W1.
 
 We repeat this for every locality for every week.
+
+---
+### Probability Metrics
+**Brier score**
+
+BS=N1​i=1∑N​(pi​−yi​)2
