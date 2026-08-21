@@ -717,4 +717,6 @@ The model estimates:
 
 P(SW1​=S2​)=0.18
 
-Then We compare that with the actual observation in 2026-W1.
+Then we compare that with the actual observation in 2026-W1.
+
+We repeat this for every locality for every week.
