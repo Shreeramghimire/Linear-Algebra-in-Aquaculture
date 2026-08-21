@@ -694,7 +694,5 @@ $$
 Train the model using:
 
 $$
-\begin{array}{cccc}
-\text{2020} & \longrightarrow & \text{TRAINING} & \longrightarrow & \text{2025}
-\end{array}
+\text{2020} \xrightarrow[\text{TRAINING}]{\hspace{3cm}} \text{2025}
 $$
