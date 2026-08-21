@@ -708,3 +708,8 @@ $$
 \text{OUT-OF-SAMPLE-TEST}
 \end{array}
 $$
+
+For example, at the end of 2025, suppose locality L001 is in:
+S1​=0.1–<0.5
+
+The model estimates:
