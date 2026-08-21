@@ -699,3 +699,11 @@ $$
 \text{TRAINING}
 \end{array}
 $$
+
+Then generate predictions for:
+$$
+\begin{array}{c}
+\text{2026 W1} \rule{5cm}{2pt} \text{2026 W31} \\
+\text{OUT-OF-SAMPLE-TEST}
+\end{array}
+$$
