@@ -726,4 +726,6 @@ We repeat this for every locality for every week.
 ### Probability Metrics
 **Brier score**
 
-BS=N1​i=1∑N​(pi​−yi​)2
+$$
+BS = \frac{1}{N} \sum_{i=1}^{N} (p_i - y_i)^2
+$$
