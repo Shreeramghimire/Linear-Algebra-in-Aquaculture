@@ -713,7 +713,7 @@ $$
 For example, at the end of 2025, suppose locality L001 is in:
 
 $$
-S_1 = 0.1 \leq 0.5
+S_1 = 0.1 \< 0.5
 $$
 
 The model estimates:
