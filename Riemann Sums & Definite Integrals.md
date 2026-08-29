@@ -26,7 +26,7 @@ $$
 
 This approximates the total net area using rectangles.
 
-| Type of Sum | How to Choose \( x_i^* \) | Aquaculture Analogy |
+| Type of Sum | How to Choose $x_i^*$ | Aquaculture Analogy |
 | :--- | :--- | :--- |
 | **Left-Endpoint** | Use the value at the start of the interval. | Checking the water temperature *only* at the beginning of each hour. |
 | **Right-Endpoint** | Use the value at the end of the interval. | Checking the temperature *only* at the end of each hour. |
