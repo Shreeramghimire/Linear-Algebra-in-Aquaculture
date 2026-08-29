@@ -25,3 +25,11 @@ $$
 $$
 
 This approximates the total net area using rectangles.
+
+| Type of Sum | How to Choose \( x_i^* \) | Aquaculture Analogy |
+| :--- | :--- | :--- |
+| **Left-Endpoint** | Use the value at the start of the interval. | Checking the water temperature *only* at the beginning of each hour. |
+| **Right-Endpoint** | Use the value at the end of the interval. | Checking the temperature *only* at the end of each hour. |
+| **Midpoint** | Use the value in the middle of the interval. | Taking a reading halfway through the hour (generally more accurate). |
+| **Lower Sum** | Choose the minimum value in the interval. | Optimistically assuming the fish ate the *least* amount of feed possible in that time frame. |
+| **Upper Sum** | Choose the maximum value in the interval. | Pessimistically assuming the fish ate the *most* feed possible. |
