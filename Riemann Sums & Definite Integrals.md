@@ -50,3 +50,5 @@ $$
 ## 2. Practical Applications in Aquaculture
 
 Here is how we apply these mathematical tools to real fish farming problems:
+
+### Application A: Total Feed Consumption
