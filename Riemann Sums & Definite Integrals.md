@@ -33,3 +33,8 @@ This approximates the total net area using rectangles.
 | **Midpoint** | Use the value in the middle of the interval. | Taking a reading halfway through the hour (generally more accurate). |
 | **Lower Sum** | Choose the minimum value in the interval. | Optimistically assuming the fish ate the *least* amount of feed possible in that time frame. |
 | **Upper Sum** | Choose the maximum value in the interval. | Pessimistically assuming the fish ate the *most* feed possible. |
+
+> **Rule of Thumb for Monotonic Functions:**
+> * If the function is **increasing** (e.g., fish weight gain accelerating), a **Left** sum is an **underestimate** and a **Right** sum is an **overestimate**.
+> * If the function is **decreasing** (e.g., oxygen depleting), a **Left** sum is an **overestimate** and a **Right** sum is an **underestimate**.
+
