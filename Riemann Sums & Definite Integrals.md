@@ -5,3 +5,8 @@ In aquaculture, we constantly deal with continuous data; oxygen levels fluctuati
 This is where **Riemann Sums** and **Definite Integrals** come in. They allow us to sum up tiny, continuous changes to find a total.
 
 ## Definition
+
+### The Net Area
+The net area under a graph of \( f(x) \) from \( a \) to \( b \) is the difference between the area above the x-axis (\( A_1 \)) and the area below it (\( A_2 \)).
+
+> **Aquaculture Context:** If \( f(t) \) represents the *rate of oxygen change* (mg/L per hour), the net area tells us the net change in oxygen. If the line goes below the x-axis, oxygen is being consumed (negative area).
