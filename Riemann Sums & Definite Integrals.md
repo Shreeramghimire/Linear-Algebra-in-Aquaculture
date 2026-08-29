@@ -12,7 +12,7 @@ The net area under a graph of \( f(x) \) from \( a \) to \( b \) is the differen
 > **Aquaculture Context:** If \( f(t) \) represents the *rate of oxygen change* (mg/L per hour), the net area tells us the net change in oxygen. If the line goes below the x-axis, oxygen is being consumed (negative area).
 
 ### The Riemann Sum
-We divide the interval \([a, b]\) into \( n \) subintervals. The width of each slice is:
+We divide the interval $([a, b]\$ into $( n )$ subintervals. The width of each slice is:
 
 $$
 \Delta x = \frac{b-a}{n}
