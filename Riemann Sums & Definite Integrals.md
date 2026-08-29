@@ -41,8 +41,8 @@ This approximates the total net area using rectangles.
 ### The Definite Integral
 The definite integral is the **limit** of the Riemann sum as the number of rectangles approaches infinity (\( n \to \infty \)). It gives the *exact* net area.
 
-
+$$
 \int_{a}^{b} f(x) \, dx = \lim_{n \to \infty} \sum_{i=1}^{n} f(x_i^*) \Delta x
-\]
+$$
 
 ---
