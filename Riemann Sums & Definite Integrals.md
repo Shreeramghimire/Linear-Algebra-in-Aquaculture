@@ -59,4 +59,4 @@ You know the *rate* at which fish eat feed (kg/hour), but you need the *total* f
 
 Dissolved oxygen (DO) is critical for fish survival. If you measure the rate of oxygen consumption at different times of the day, integrating that rate tells you exactly how much oxygen was depleted. This helps you program aerators to turn on at the right time.
 
-
+### Application C: Fish Growth (Biomass)
