@@ -18,7 +18,7 @@ $$
 \Delta x = \frac{b-a}{n}
 $$
 
-We pick a sample point \( x_i^* \) in each slice and calculate the sum:
+We pick a sample point $( x_i^* \)$ in each slice and calculate the sum:
 
 $$
 \sum_{i=1}^{n} f(x_i^*) \Delta x_i
