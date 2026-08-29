@@ -4,3 +4,4 @@ In aquaculture, we constantly deal with continuous data; oxygen levels fluctuati
 
 This is where **Riemann Sums** and **Definite Integrals** come in. They allow us to sum up tiny, continuous changes to find a total.
 
+## Definition
