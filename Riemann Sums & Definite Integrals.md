@@ -13,11 +13,15 @@ The net area under a graph of \( f(x) \) from \( a \) to \( b \) is the differen
 
 ### The Riemann Sum
 We divide the interval \([a, b]\) into \( n \) subintervals. The width of each slice is:
-\[
+
+$$
 \Delta x = \frac{b-a}{n}
-\]
+$$
+
 We pick a sample point \( x_i^* \) in each slice and calculate the sum:
-\[
+
+$$
 \sum_{i=1}^{n} f(x_i^*) \Delta x_i
-\]
+$$
+
 This approximates the total net area using rectangles.
