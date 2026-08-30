@@ -114,3 +114,7 @@ $$
 $$
 
 **Step 1:** Find the antiderivative:
+
+$$
+F(t) = 0.5t + 0.05t^2
+$$
