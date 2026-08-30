@@ -112,3 +112,5 @@ We need the definite integral:
 $$
 \text{Total Gain} = \int_{0}^{10} (0.5 + 0.1t) \, dt
 $$
+
+**Step 1:** Find the antiderivative:
