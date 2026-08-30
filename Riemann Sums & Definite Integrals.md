@@ -94,4 +94,6 @@ $$
 
 ---
 
+### Example 2: Total Biomass Gain (The Definite Integral)
+The growth rate of a specific species of Tilapia is modeled by:
 
