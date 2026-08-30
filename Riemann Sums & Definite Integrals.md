@@ -65,3 +65,5 @@ If you have a model for the daily growth rate of your fish (grams/day), integrat
 
 ---
 
+## 3. Worked Examples
+
