@@ -90,4 +90,8 @@ $$
 = 5 \cdot [ (-0.5) + (-0.8) + (-0.4) + (-0.1) ] = 5 \cdot (-1.8) = -9.0 \text{ mg/L}
 $$
 
+**Interpretation:** The fish consumed approximately 9 mg/L of oxygen during this 20-minute period. Since the rate is negative, the integral yields a negative value (depletion).
+
+---
+
 
