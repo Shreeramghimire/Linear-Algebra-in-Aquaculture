@@ -102,3 +102,4 @@ $$
 G(t) = 0.5 + 0.1t \quad \text{(grams per day)}
 $$
 
+where $t$ is time in days.
