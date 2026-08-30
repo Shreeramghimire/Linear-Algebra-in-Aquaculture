@@ -98,7 +98,7 @@ $$
 
 The growth rate of a specific species of Tilapia is modeled by:
 
-\[
+$$
 G(t) = 0.5 + 0.1t \quad \text{(grams per day)}
-\]
+$$
 
