@@ -68,6 +68,9 @@ If you have a model for the daily growth rate of your fish (grams/day), integrat
 ## 3. Worked Examples
 
 ### Example 1: Estimating Oxygen Consumption (Riemann Sum)
+
 You measure the rate of oxygen depletion in a tank $r(t)$ (in mg/L per minute) at 5-minute intervals.
 
-
+| Time (min) | 0 | 5 | 10 | 15 | 20 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Rate** \( r(t) \) | -0.2 | -0.5 | -0.8 | -0.4 | -0.1 |
