@@ -103,3 +103,8 @@ G(t) = 0.5 + 0.1t \quad \text{(grams per day)}
 $$
 
 where $t$ is time in days.
+
+**Question:** How much total biomass does a single fish gain between day 0 and day 10?
+
+**Solution:**
+We need the definite integral:
