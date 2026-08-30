@@ -82,4 +82,12 @@ You measure the rate of oxygen depletion in a tank $r(t)$ (in mg/L per minute) a
 - Right endpoints: \( t = 5, 10, 15, 20 \).
 - Calculation:
 
+$$
+\text{Oxygen Lost} \approx 5 \cdot [ r(5) + r(10) + r(15) + r(20) ]
+$$
+
+\[
+= 5 \cdot [ (-0.5) + (-0.8) + (-0.4) + (-0.1) ] = 5 \cdot (-1.8) = -9.0 \text{ mg/L}
+\]
+
 
