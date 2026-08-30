@@ -74,3 +74,7 @@ You measure the rate of oxygen depletion in a tank $r(t)$ (in mg/L per minute) a
 | Time (min) | 0 | 5 | 10 | 15 | 20 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Rate** \( r(t) \) | -0.2 | -0.5 | -0.8 | -0.4 | -0.1 |
+
+**Question:** Use a Right Riemann Sum with 4 intervals to estimate the total oxygen lost over 20 minutes.
+
+
