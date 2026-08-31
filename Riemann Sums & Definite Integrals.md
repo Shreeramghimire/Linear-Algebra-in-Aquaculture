@@ -123,7 +123,7 @@ $$
 
 $$
 F(10) - F(0) = (0.5 \cdot 10 + 0.05 \cdot 10^2) - (0) = (5 + 5) = 10
-\]
+$$
 
 **Result:** The fish gained **10 grams** over the 10 days.
 
