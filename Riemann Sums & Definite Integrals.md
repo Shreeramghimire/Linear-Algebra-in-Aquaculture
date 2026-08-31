@@ -78,7 +78,7 @@ You measure the rate of oxygen depletion in a tank $r(t)$ (in mg/L per minute) a
 **Question:** Use a Right Riemann Sum with 4 intervals to estimate the total oxygen lost over 20 minutes.
 
 **Solution:**
-- Width of intervals: \( \Delta t = 5 \) minutes.
+- Width of intervals: $Delta t = 5$ minutes.
 - Right endpoints: \( t = 5, 10, 15, 20 \).
 - Calculation:
 
