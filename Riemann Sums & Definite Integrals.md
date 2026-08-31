@@ -147,7 +147,7 @@ When combining different environmental factors (temperature effect + feeding rat
 
 | Property | Math | Meaning in Aquaculture |
 | :--- | :--- | :--- |
-| **Constant Multiple** | \( \int c \cdot f(x) dx = c \int f(x) dx \) | If you double the number of fish, the total feed consumption doubles. |
+| **Constant Multiple** | $( \int c \cdot f(x) dx = c \int f(x) dx \)$ | If you double the number of fish, the total feed consumption doubles. |
 | **Sum/Difference** | \( \int [f(x) \pm g(x)] dx = \int f(x) dx \pm \int g(x) dx \) | Total oxygen change = (Oxygen produced by algae) + (Oxygen consumed by fish). |
 | **Additivity** | \( \int_{a}^{c} f dx + \int_{c}^{b} f dx = \int_{a}^{b} f dx \) | You can calculate growth in the nursery phase and growth in the grow-out phase separately, then add them. |
 
