@@ -130,3 +130,5 @@ $$
 ---
 
 ### Example 3: Upper and Lower Sums (Safety Margins)
+
+You are designing a backup aerator. The oxygen concentration \( C(t) \) is decreasing on the interval \([0, 10]\) minutes.
