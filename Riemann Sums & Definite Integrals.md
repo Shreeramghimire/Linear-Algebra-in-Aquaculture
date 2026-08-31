@@ -141,7 +141,7 @@ If you are planning for the *worst-case scenario* (most oxygen lost), you would 
 
 ---
 
-## 4. Key Properties for Aquaculture 
+## 4. Key Properties for Aquaculture
 
 When combining different environmental factors (temperature effect + feeding rate), you can use these properties:
 
