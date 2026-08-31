@@ -152,3 +152,10 @@ When combining different environmental factors (temperature effect + feeding rat
 | **Additivity** | $( \int_{a}^{c} f dx + \int_{c}^{b} f dx = \int_{a}^{b} f dx \)$ | You can calculate growth in the nursery phase and growth in the grow-out phase separately, then add them. |
 
 ---
+
+## 5. Conclusion
+
+Riemann sums and definite integrals are the mathematical backbone of **resource management** in aquaculture. They allow us to move from *instantaneous rates* (like "the fish are eating 0.5 kg/hour right now") to *total quantities* ("we need to order 120 kg of feed for the month").
+
+- Use **Riemann Sums** when you have discrete data points (sensor readings, manual measurements).
+- Use **Definite Integrals** when you have a continuous mathematical model of your system.
