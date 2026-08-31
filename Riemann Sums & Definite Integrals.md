@@ -128,3 +128,5 @@ $$
 **Result:** The fish gained **10 grams** over the 10 days.
 
 ---
+
+### Example 3: Upper and Lower Sums (Safety Margins)
