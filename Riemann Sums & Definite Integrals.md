@@ -132,3 +132,13 @@ $$
 ### Example 3: Upper and Lower Sums (Safety Margins)
 
 You are designing a backup aerator. The oxygen concentration $C(t)$ is decreasing on the interval $[0, 10]$ minutes.
+
+- If you use a **Left Riemann Sum**, you will get a value higher than the true oxygen loss (an *upper sum*).
+  
+- If you use a **Right Riemann Sum**, you will get a value lower than the true loss (a *lower sum*).
+
+If you are planning for the *worst-case scenario* (most oxygen lost), you would use the **Left Riemann Sum** to overestimate the depletion so your aerator is powerful enough to handle it.
+
+---
+
+
