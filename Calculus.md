@@ -178,3 +178,11 @@ $$
 
 ## 4. Why This Matters for Farm Management
 
+| Scenario | Without FTC (Riemann Sums) | With FTC (Antiderivatives) |
+| :--- | :--- | :--- |
+| **Feed Ordering** | Estimate based on hourly manual checks. | Model the feeding rate, integrate over the month. Order exact feed bags. |
+| **Aeration Control** | React to oxygen dropping too low. | Integrate the consumption rate to predict *exactly* when oxygen will hit a critical level. |
+| **Harvest Weight** | Guess the average weight of the fish. | Use a growth rate curve, integrate it, and know the *exact* total biomass in the tank for market. |
+
+---
+
