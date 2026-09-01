@@ -122,7 +122,8 @@ O'(x) = p(x)
 $$
 
 So at \( x = 3 \):
-\[
+
+$$
 O'(3) = p(3) = 5 + \sin(3) \approx 5 + 0.141 = 5.141 \text{ mg/L per hour}
-\]
+$$
 
