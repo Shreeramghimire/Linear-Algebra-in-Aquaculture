@@ -147,10 +147,10 @@ where \( t \) is days.
 
 1. **Find the Antiderivative** \( F(t) \):
 
-\[
+$$
 F(t) = \frac{0.02}{3}t^3 + \frac{0.5}{2}t^2 + 2t
-\]
+$$
    
-\[
+$$
 F(t) \approx 0.00667t^3 + 0.25t^2 + 2t
-\]
+$$
