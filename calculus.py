@@ -83,3 +83,34 @@ print(f"Exact total oxygen consumed (using FTC / numerical integration): {exact_
 print(f"Right Riemann Sum estimate: {right_riemann_sum:.2f} mg/L")
 print(f"Difference (Riemann - Exact): {right_riemann_sum - exact_total:.2f} mg/L")
 print(f"Percent error: {abs((right_riemann_sum - exact_total) / exact_total * 100):.2f}%")
+
+# Create fine time points for the continuous model
+time_fine = np.linspace(0, 24, 200)
+rate_fine = consumption_model(time_fine)
+
+# Calculate the accumulated oxygen (running total) using FTC Part 1
+# Antiderivative: C(t) = -0.00625*t^4 + 0.15*t^3 - 0.6*t^2 + 0.1*t
+accumulated_oxygen = -0.00625 * time_fine**4 + 0.15 * time_fine**3 - 0.6 * time_fine**2 + 0.1 * time_fine
+
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 10))
+
+# Top plot: Consumption Rate
+ax1.plot(time_fine, rate_fine, 'b-', label='Continuous Model', linewidth=2)
+ax1.scatter(time, consumption_rate, color='red', s=50, label='Sensor Data', zorder=5)
+ax1.set_xlabel('Time (hours)')
+ax1.set_ylabel('Consumption Rate (mg/L per hour)')
+ax1.set_title('Oxygen Consumption Rate Model')
+ax1.legend()
+ax1.grid(True, alpha=0.3)
+
+# Bottom plot: Accumulated Total (The Definite Integral)
+ax2.plot(time_fine, accumulated_oxygen, 'g-', linewidth=2)
+ax2.axhline(y=exact_total, color='purple', linestyle='--', label=f'Total at 24 hrs = {exact_total:.2f} mg/L')
+ax2.set_xlabel('Time (hours)')
+ax2.set_ylabel('Total Oxygen Consumed (mg/L)')
+ax2.set_title('Accumulated Oxygen (Running Total via FTC Part 1)')
+ax2.legend()
+ax2.grid(True, alpha=0.3)
+
+plt.tight_layout()
+plt.show()
