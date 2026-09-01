@@ -55,3 +55,6 @@ With the FTC:
 
 ## 3. Worked Examples in Aquaculture
 
+### Example 1: Calculating Total Feed Delivery (Using FTC Part 2)
+
+A computerized feeder dispenses feed at a rate modeled by:
