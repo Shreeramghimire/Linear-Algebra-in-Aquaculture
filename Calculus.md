@@ -172,4 +172,6 @@ $$
 \text{Total Gain} = F(30) - F(10) = 465.09 - 51.67 = 413.42 \text{ grams}
 $$
 
+**Result:** The salmon gains approximately **413 grams** in that 20-day grow-out period.
 
+---
