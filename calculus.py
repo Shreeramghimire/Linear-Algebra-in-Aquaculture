@@ -72,3 +72,14 @@ ax.set_ylim(0, 3.5)
 plt.tight_layout()
 plt.show()
                             
+# Define the continuous model as a function
+def consumption_model(t):
+    return -0.025 * t**3 + 0.45 * t**2 - 1.2 * t + 0.1
+
+# Use scipy's quad function to find the definite integral (exact numerical integration)
+exact_total, error = quad(consumption_model, 0, 24)
+
+print(f"Exact total oxygen consumed (using FTC / numerical integration): {exact_total:.2f} mg/L")
+print(f"Right Riemann Sum estimate: {right_riemann_sum:.2f} mg/L")
+print(f"Difference (Riemann - Exact): {right_riemann_sum - exact_total:.2f} mg/L")
+print(f"Percent error: {abs((right_riemann_sum - exact_total) / exact_total * 100):.2f}%")
