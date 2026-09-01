@@ -191,6 +191,8 @@ $$
 If you are writing a Python script or an R script for aquaculture data:
 
 1. **If you have discrete sensor data** (e.g., readings every minute) → Use a **Riemann Sum** (trapz function in Python/NumPy).
-2. **If you have a mathematical equation** for the rate of change (e.g., \( f(t) = at^2 + bt + c \)) → Use the **Fundamental Theorem of Calculus**. 
+2. **If you have a mathematical equation** for the rate of change (e.g., $\( f(t) = at^2 + bt + c \))$ → Use the **Fundamental Theorem of Calculus**. 
    - Use `sympy` (Python) to find the antiderivative symbolically.
    - Evaluate it at your start and end times.
+
+The FTC is the mathematical bridge between **"What is happening right now?"** (rate) and **"What is the total impact?"** (accumulation). It is the single most important calculus tool for managing a recirculating aquaculture system (RAS).
