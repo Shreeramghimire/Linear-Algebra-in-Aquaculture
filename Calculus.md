@@ -22,3 +22,6 @@ $$
 Imagine f(t) is the *rate* of feed going into a tank (kg/hour). If g(x) is the *total* feed that has been added up to hour x , then the derivative of the total feed g'(x) tells you exactly how fast feed is being added *right now*, f(x). You don't have to recalculate the total; the rate is baked into the total.
 
 ---
+
+### Part 2: The "Evaluation" Rule 
+
