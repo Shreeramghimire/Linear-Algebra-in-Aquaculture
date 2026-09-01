@@ -11,3 +11,7 @@ For an aquaculturist, this means: If we know the *rate* at which our fish are gr
 ### Part 1: The "Rate of Accumulation" Rule
 > *If you have a running total  g(x) of something (like total oxygen added up from time 0 to time  x , the **instantaneous rate** at which that total is changing at time x is just the original function f(x) .*
 
+**Mathematically:**
+\[
+g(x) = \int_{a}^{x} f(t) \, dt \quad \Longrightarrow \quad g'(x) = f(x)
+\]
