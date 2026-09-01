@@ -143,3 +143,6 @@ where \( t \) is days.
 
 **Question:** What is the total biomass gained by a single fish between Day 10 and Day 30?
 
+**Solution:**
+
+
