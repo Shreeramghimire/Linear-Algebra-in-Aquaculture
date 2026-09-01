@@ -174,3 +174,33 @@ print(f"  - Harvest weight: {final_weight:.2f} g")
 print(f"  - Total gain: {total_gain:.2f} g")
 print(f"  - Average daily gain: {total_gain / 120:.2f} g/day")
 
+# Data for comparison
+methods = ['Right Riemann Sum (Sensor Data)', 'Numerical Integration (FTC)', 'Symbolic Integration (FTC)']
+oxygen_values = [right_riemann_sum, exact_total, exact_total]  # Both FTC methods give same result
+
+# For growth, we only have symbolic FTC
+growth_methods = ['Symbolic FTC (Growth)']
+growth_values = [total_gain]
+
+# Create summary table
+print("=" * 60)
+print("OXYGEN CONSUMPTION SUMMARY (24 hours)")
+print("=" * 60)
+print(f"{'Method':<35} {'Total (mg/L)':<15}")
+print("-" * 60)
+for method, value in zip(methods, oxygen_values):
+    print(f"{method:<35} {value:<15.2f}")
+print("=" * 60)
+
+print("\n" + "=" * 60)
+print("BIOMASS GAIN SUMMARY (120 days)")
+print("=" * 60)
+print(f"{'Method':<35} {'Total Gain (g)':<15}")
+print("-" * 60)
+print(f"{'Symbolic FTC (Growth Model)':<35} {total_gain:<15.2f}")
+print("=" * 60)
+
+print("\n**Key Takeaway:**")
+print("  - The Riemann sum (using discrete data) is an approximation.")
+print("  - The FTC (using a continuous model) gives the exact area under the curve.")
+print("  - In real aquaculture, you use Riemann sums for sensor data and FTC for mathematical models.")
