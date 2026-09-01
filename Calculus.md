@@ -71,8 +71,8 @@ where \ (t \) is the time in hours after 8:00 AM.
 
 1. Find the antiderivative \( R(t) \) of \( r(t) \):
    
-   $$
-   R(t) = 100t + 10t^2
-   $$
+$$
+R(t) = 100t + 10t^2
+$$
    
    *(Check: The derivative of $\( 100t + 10t^2 \)$ is $\( 100 + 20t \)$, which matches our rate.)*
