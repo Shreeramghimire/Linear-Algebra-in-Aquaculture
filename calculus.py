@@ -45,3 +45,30 @@ right_riemann_sum = delta_t * np.sum(right_endpoints)
 print(f"Number of subintervals: {n_subintervals}")
 print(f"Width of each subinterval: {delta_t} hours")
 print(f"Right Riemann Sum estimate of total oxygen consumed: {right_riemann_sum:.2f} mg/L")
+
+
+fig, ax = plt.subplots(figsize=(10, 6))
+
+# Plot the actual data points
+ax.plot(time, consumption_rate, 'bo-', label='Sensor Data', linewidth=2, markersize=8)
+
+# Plot the right Riemann sum rectangles
+for i in range(1, len(time)):
+    x_left = time[i-1]
+    x_right = time[i]
+    y_height = consumption_rate[i]  # Right endpoint value
+    ax.add_patch(plt.Rectangle((x_left, 0), delta_t, y_height, 
+                               facecolor='red', alpha=0.3, edgecolor='red'))
+
+# Formatting
+ax.set_xlabel('Time (hours)', fontsize=12)
+ax.set_ylabel('Oxygen Consumption Rate (mg/L per hour)', fontsize=12)
+ax.set_title('Right Riemann Sum Approximation (12 Subintervals)', fontsize=14)
+ax.legend()
+ax.grid(True, alpha=0.3)
+ax.set_xlim(-1, 25)
+ax.set_ylim(0, 3.5)
+
+plt.tight_layout()
+plt.show()
+                            
