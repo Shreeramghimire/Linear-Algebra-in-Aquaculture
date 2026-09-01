@@ -27,3 +27,8 @@ Imagine f(t) is the *rate* of feed going into a tank (kg/hour). If g(x) is the *
 
 > *To find the exact total change of f(x) from time a to time b, just find an antiderivative F(x) (a function whose derivative is f(x), and subtract:*
 
+**Mathematically:**
+
+\[
+\int_{a}^{b} f(x) \, dx = F(b) - F(a)
+\]
