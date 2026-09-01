@@ -79,6 +79,6 @@ $$
 
 2. Apply FTC Part 2:
    
-\[
+$$
 \text{Total Feed} = \int_{1}^{4} (100 + 20t) \, dt = R(4) - R(1)
-\]
+$$
