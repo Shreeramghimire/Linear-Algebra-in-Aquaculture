@@ -140,3 +140,6 @@ G(t) = 0.02t^2 + 0.5t + 2 \quad \text{(grams per day)}
 $$
 
 where \( t \) is days. 
+
+**Question:** What is the total biomass gained by a single fish between Day 10 and Day 30?
+
