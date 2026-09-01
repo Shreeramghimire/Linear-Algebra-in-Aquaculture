@@ -136,3 +136,41 @@ initial_weight = 50  # grams
 final_weight = initial_weight + total_gain
 print(f"Final weight at harvest (Day 120): {final_weight:.2f} grams")
 
+# Convert symbolic expressions to numerical functions for plotting
+G_num = lambdify(t, G_t, 'numpy')
+F_num = lambdify(t, F_t, 'numpy')
+
+# Generate time array
+days = np.linspace(0, 120, 500)
+growth_rates = G_num(days)
+total_weights = F_num(days) + initial_weight  # Add the initial weight
+
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 10))
+
+# Top: Growth Rate
+ax1.plot(days, growth_rates, 'b-', linewidth=2)
+ax1.axhline(y=0, color='black', linestyle='-', alpha=0.3)
+ax1.set_xlabel('Time (days)')
+ax1.set_ylabel('Growth Rate (grams/day)')
+ax1.set_title('Daily Growth Rate of Atlantic Salmon')
+ax1.grid(True, alpha=0.3)
+
+# Bottom: Total Weight (Accumulation)
+ax2.plot(days, total_weights, 'g-', linewidth=2, label='Total Weight')
+ax2.scatter([0, 120], [initial_weight, final_weight], color='red', s=100, zorder=5, 
+            label=f'Start: {initial_weight}g, Harvest: {final_weight:.1f}g')
+ax2.set_xlabel('Time (days)')
+ax2.set_ylabel('Total Weight (grams)')
+ax2.set_title('Fish Growth Curve (Integral of Growth Rate)')
+ax2.legend()
+ax2.grid(True, alpha=0.3)
+
+plt.tight_layout()
+plt.show()
+
+print(f"Summary:")
+print(f"  - Stocking weight: {initial_weight} g")
+print(f"  - Harvest weight: {final_weight:.2f} g")
+print(f"  - Total gain: {total_gain:.2f} g")
+print(f"  - Average daily gain: {total_gain / 120:.2f} g/day")
+
