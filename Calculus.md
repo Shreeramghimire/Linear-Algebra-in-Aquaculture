@@ -100,3 +100,13 @@ $$
 **Result:** The feeder drops **450 kg** of feed between 9:00 AM and 12:00 PM.
 
 ---
+
+### Example 2: The "Running Total" (Using FTC Part 1)
+
+You have a sensor that measures the rate of oxygen production by algae in a biofloc tank:
+\[
+p(t) = 5 + \sin(t) \quad \text{(mg/L per hour)}
+\]
+Let \( O(x) \) be the *total* oxygen produced from time \( 0 \) to time \( x \). 
+
+**Question:** How fast is the *total* oxygen production increasing at exactly \( x = 3 \) hours?
