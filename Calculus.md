@@ -96,3 +96,7 @@ $$
 $$
 \text{Total} = 560 - 110 = 450 \text{ kg}
 $$
+
+**Result:** The feeder drops **450 kg** of feed between 9:00 AM and 12:00 PM.
+
+---
