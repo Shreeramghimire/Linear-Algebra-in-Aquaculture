@@ -32,3 +32,8 @@ Imagine f(t) is the *rate* of feed going into a tank (kg/hour). If g(x) is the *
 $$
 \int_{a}^{b} f(x) \, dx = F(b) - F(a)
 $$
+
+**Aquaculture Translation:** 
+If f(x) is the **growth rate** of your fish (grams/day), and you know the antiderivative F(x) (which represents the *total weight formula*), then the total weight gained between Day a and Day b is simply **Weight at Day b minus Weight at Day a **. No infinite rectangles required!
+
+---
