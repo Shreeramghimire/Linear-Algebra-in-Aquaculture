@@ -62,3 +62,5 @@ A computerized feeder dispenses feed at a rate modeled by:
 $$
 r(t) = 100 + 20t \quad \text{(kg per hour)}
 $$
+
+where t is the time in hours after 8:00 AM.
