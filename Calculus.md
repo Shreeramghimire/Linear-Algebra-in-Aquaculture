@@ -58,3 +58,7 @@ With the FTC:
 ### Example 1: Calculating Total Feed Delivery (Using FTC Part 2)
 
 A computerized feeder dispenses feed at a rate modeled by:
+
+\[
+r(t) = 100 + 20t \quad \text{(kg per hour)}
+\]
