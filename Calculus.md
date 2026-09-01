@@ -134,6 +134,7 @@ $$
 ### Example 3: Calculating Total Biomass Gain (Polynomial Model)
 
 A research paper provides a growth model for juvenile Salmon:
+
 \[
 G(t) = 0.02t^2 + 0.5t + 2 \quad \text{(grams per day)}
 \]
