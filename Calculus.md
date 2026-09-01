@@ -2,7 +2,7 @@
 
 Doing infinite sums by hand is impossible. The **Fundamental Theorem of Calculus (FTC)** gives us the ultimate shortcut. It tells us that **integration (finding totals) and differentiation (finding rates) are reverse operations.**
 
-For an aquaculturist, this means: If we know the *rate* at which our fish are growing, the FTC lets we find the *total* biomass gained in seconds.
+For an aquaculturist, this means: If we know the *rate* at which our fish are growing, the FTC lets us find the *total* biomass gained in seconds.
 
 ---
 
@@ -25,5 +25,5 @@ Imagine f(t) is the *rate* of feed going into a tank (kg/hour). If g(x) is the *
 
 ### Part 2: The "Evaluation" Rule 
 
-> *To find the exact total change of \f(x) \ from time \ a \ to time \ b \, just find an antiderivative \ F(x) \) (a function whose derivative is \ f(x) \, and subtract:*
+> *To find the exact total change of f(x) from time a to time b, just find an antiderivative F(x) (a function whose derivative is f(x), and subtract:*
 
