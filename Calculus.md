@@ -49,6 +49,6 @@ Without the FTC:
 With the FTC:
 - You fit a continuous mathematical model to your sensor data (e.g., Oxygen depletion follows a polynomial curve).
 - You find the antiderivative of that model.
-- You evaluate it at the start and end times. **Instant exact total**
+- You evaluate it at the start and end times. (**Instant exact total**)
 
 ---
