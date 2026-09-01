@@ -29,6 +29,6 @@ Imagine f(t) is the *rate* of feed going into a tank (kg/hour). If g(x) is the *
 
 **Mathematically:**
 
-\[
+$$
 \int_{a}^{b} f(x) \, dx = F(b) - F(a)
-\]
+$$
