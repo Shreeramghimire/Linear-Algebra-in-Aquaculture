@@ -130,3 +130,11 @@ $$
 **Result:** At the 3-hour mark, the total accumulated oxygen is increasing at a rate of **5.14 mg/L per hour**. This tells you exactly when the algae are most productive.
 
 ---
+
+### Example 3: Calculating Total Biomass Gain (Polynomial Model)
+
+A research paper provides a growth model for juvenile Salmon:
+\[
+G(t) = 0.02t^2 + 0.5t + 2 \quad \text{(grams per day)}
+\]
+where \( t \) is days. 
