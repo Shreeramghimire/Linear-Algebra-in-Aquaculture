@@ -25,5 +25,5 @@ Imagine f(t) is the *rate* of feed going into a tank (kg/hour). If g(x) is the *
 
 ### Part 2: The "Evaluation" Rule 
 
-> *To find the exact total change of \( f(x) \) from time \( a \) to time \( b \), just find an antiderivative \( F(x) \) (a function whose derivative is \( f(x) \)), and subtract:*
+> *To find the exact total change of \f(x) \ from time \ a \ to time \ b \, just find an antiderivative \ F(x) \) (a function whose derivative is \ f(x) \, and subtract:*
 
