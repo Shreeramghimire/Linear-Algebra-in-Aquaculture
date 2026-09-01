@@ -4,5 +4,9 @@ Doing infinite sums by hand is impossible. The **Fundamental Theorem of Calculus
 
 For an aquaculturist, this means: If we know the *rate* at which our fish are growing, the FTC lets we find the *total* biomass gained in seconds.
 
+---
+
+## 1. The Two Parts of the FTC 
+
 
 
