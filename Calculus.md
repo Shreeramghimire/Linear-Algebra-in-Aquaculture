@@ -112,3 +112,17 @@ $$
 Let \( O(x) \) be the *total* oxygen produced from time \( 0 \) to time \( x \). 
 
 **Question:** How fast is the *total* oxygen production increasing at exactly \( x = 3 \) hours?
+
+**Solution:**
+
+By FTC Part 1, the derivative of the total production is just the original rate function.
+
+$$
+O'(x) = p(x)
+$$
+
+So at \( x = 3 \):
+\[
+O'(3) = p(3) = 5 + \sin(3) \approx 5 + 0.141 = 5.141 \text{ mg/L per hour}
+\]
+
