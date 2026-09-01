@@ -168,6 +168,6 @@ $$
 
 3. **Subtract**:
 
-   \[
-   \text{Total Gain} = F(30) - F(10) = 465.09 - 51.67 = 413.42 \text{ grams}
+$$
+\text{Total Gain} = F(30) - F(10) = 465.09 - 51.67 = 413.42 \text{ grams}
    \]
