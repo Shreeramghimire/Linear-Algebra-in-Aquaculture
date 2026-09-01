@@ -127,3 +127,6 @@ $$
 O'(3) = p(3) = 5 + \sin(3) \approx 5 + 0.141 = 5.141 \text{ mg/L per hour}
 $$
 
+**Result:** At the 3-hour mark, the total accumulated oxygen is increasing at a rate of **5.14 mg/L per hour**. This tells you exactly when the algae are most productive.
+
+---
