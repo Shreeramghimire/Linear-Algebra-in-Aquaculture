@@ -175,3 +175,6 @@ $$
 **Result:** The salmon gains approximately **413 grams** in that 20-day grow-out period.
 
 ---
+
+## 4. Why This Matters for Farm Management
+
