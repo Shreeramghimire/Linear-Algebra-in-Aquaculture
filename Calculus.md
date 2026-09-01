@@ -39,3 +39,9 @@ If f(x) is the **growth rate** of your fish (grams/day), and you know the antide
 ---
 
 ## 2. Why This Saves Aquaculture Data Scientists
+
+Without the FTC:
+
+- You collect sensor data every 10 seconds.
+- You multiply each reading by 10 seconds and add them all up (Riemann sums).
+- If you miss a data point, your estimate is off.
