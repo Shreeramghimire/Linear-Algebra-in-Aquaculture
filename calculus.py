@@ -114,3 +114,25 @@ ax2.grid(True, alpha=0.3)
 
 plt.tight_layout()
 plt.show()
+
+                            # Define symbolic variable
+t = sp.Symbol('t')
+
+# Define the growth rate function symbolically
+G_t = 0.002 * t**2 + 0.15 * t + 0.5
+
+# Find the antiderivative (indefinite integral)
+F_t = sp.integrate(G_t, t)
+print(f"Antiderivative (Total weight function): F(t) = {F_t}")
+
+# Evaluate the definite integral from 0 to 120
+total_gain = sp.integrate(G_t, (t, 0, 120))
+print(f"\nTotal biomass gained from Day 0 to Day 120: {total_gain:.2f} grams")
+
+# Initial weight at stocking
+initial_weight = 50  # grams
+
+# Final weight at harvest
+final_weight = initial_weight + total_gain
+print(f"Final weight at harvest (Day 120): {final_weight:.2f} grams")
+
