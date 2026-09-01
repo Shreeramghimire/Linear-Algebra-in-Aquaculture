@@ -13,6 +13,6 @@ For an aquaculturist, this means: If we know the *rate* at which our fish are gr
 
 **Mathematically:**
 
-\[
+$$
 g(x) = \int_{a}^{x} f(t) \, dt \quad \Longrightarrow \quad g'(x) = f(x)
-\]
+$$
