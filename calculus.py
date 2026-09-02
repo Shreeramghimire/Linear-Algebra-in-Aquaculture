@@ -52,7 +52,7 @@ fig, ax = plt.subplots(figsize=(10, 6))
 # Plot the actual data points
 ax.plot(time, consumption_rate, 'bo-', label='Sensor Data', linewidth=2, markersize=8)
 
-# Plot the right Riemann sum rectangles
+# Plot the right Riemann sum rectangles 
 for i in range(1, len(time)):
     x_left = time[i-1]
     x_right = time[i]
