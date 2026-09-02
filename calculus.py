@@ -145,6 +145,8 @@ initial_weight = 50  # grams
 final_weight = initial_weight + total_gain
 print(f"Final weight at harvest (Day 120): {final_weight:.2f} grams")
 
+### Cell 7: Create a Growth Curve Visualization
+
 # Convert symbolic expressions to numerical functions for plotting
 G_num = lambdify(t, G_t, 'numpy')
 F_num = lambdify(t, F_t, 'numpy')
