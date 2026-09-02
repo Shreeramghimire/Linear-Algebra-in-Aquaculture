@@ -30,6 +30,8 @@ from sympy import symbols, integrate, lambdify
 plt.style.use('seaborn-v0_8-whitegrid')
 print("Libraries imported successfully!")
 
+
+### Cell 2: Riemann Sum with Synthetic Sensor Data
 # Define the data
 time = np.array([0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24])
 consumption_rate = np.array([0.0, 0.8, 1.5, 2.1, 2.6, 3.0, 3.2, 3.1, 2.8, 2.3, 1.7, 0.9, 0.0])
