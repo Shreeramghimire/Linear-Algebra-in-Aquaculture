@@ -1,6 +1,7 @@
 # Aquaculture Data Analysis: Riemann Sums vs. The FTC
 
 ### Scenario
+
 You are managing a **Recirculating Aquaculture System (RAS)** for raising Atlantic Salmon. You have:
 1. **Sensor data** measuring oxygen consumption rate every 2 hours for a 24-hour period.
 2. A **mathematical model** for fish growth rate over a 120-day grow-out period.
@@ -74,7 +75,9 @@ ax.set_ylim(0, 3.5)
 
 plt.tight_layout()
 plt.show()
-                            
+
+Cell 4: Exact Integration Using FTC 
+            
 # Define the continuous model as a function
 def consumption_model(t):
     return -0.025 * t**3 + 0.45 * t**2 - 1.2 * t + 0.1
