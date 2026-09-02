@@ -90,6 +90,7 @@ print(f"Right Riemann Sum estimate: {right_riemann_sum:.2f} mg/L")
 print(f"Difference (Riemann - Exact): {right_riemann_sum - exact_total:.2f} mg/L")
 print(f"Percent error: {abs((right_riemann_sum - exact_total) / exact_total * 100):.2f}%")
 
+### Cell 5: Visualizing the Continuous Model vs. Data
 # Create fine time points for the continuous model
 time_fine = np.linspace(0, 24, 200)
 rate_fine = consumption_model(time_fine)
