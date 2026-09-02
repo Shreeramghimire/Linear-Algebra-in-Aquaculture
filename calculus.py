@@ -115,7 +115,7 @@ ax2.grid(True, alpha=0.3)
 plt.tight_layout()
 plt.show()
 
-                            # Define symbolic variable
+# Define symbolic variable
 t = sp.Symbol('t')
 
 # Define the growth rate function symbolically
