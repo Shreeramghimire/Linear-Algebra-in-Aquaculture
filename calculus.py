@@ -122,6 +122,8 @@ ax2.grid(True, alpha=0.3)
 plt.tight_layout()
 plt.show()
 
+### Cell 6: Fish Biomass Prediction (FTC Symbolic)
+
 # Define symbolic variable
 t = sp.Symbol('t')
 
