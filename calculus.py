@@ -185,6 +185,7 @@ print(f"  - Harvest weight: {final_weight:.2f} g")
 print(f"  - Total gain: {total_gain:.2f} g")
 print(f"  - Average daily gain: {total_gain / 120:.2f} g/day")
 
+### Cell 8: Comparison Summary Table
 # Data for comparison
 methods = ['Right Riemann Sum (Sensor Data)', 'Numerical Integration (FTC)', 'Symbolic Integration (FTC)']
 oxygen_values = [right_riemann_sum, exact_total, exact_total]  # Both FTC methods give same result
