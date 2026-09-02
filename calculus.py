@@ -48,6 +48,7 @@ print(f"Number of subintervals: {n_subintervals}")
 print(f"Width of each subinterval: {delta_t} hours")
 print(f"Right Riemann Sum estimate of total oxygen consumed: {right_riemann_sum:.2f} mg/L")
 
+### Cell 3: Visualize the Riemann Sum Rectangles
 
 fig, ax = plt.subplots(figsize=(10, 6))
 
