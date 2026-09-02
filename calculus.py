@@ -147,7 +147,7 @@ total_weights = F_num(days) + initial_weight  # Add the initial weight
 
 fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 10))
 
-# Top: Growth Rate
+# Top: Growth Rate 
 ax1.plot(days, growth_rates, 'b-', linewidth=2)
 ax1.axhline(y=0, color='black', linestyle='-', alpha=0.3)
 ax1.set_xlabel('Time (days)')
