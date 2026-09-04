@@ -296,8 +296,6 @@ plt.savefig('ras_dashboard.png', dpi=150, bbox_inches='tight')
 plt.show()
 
 ### Cell 10: Standalone Results Summary Image
-# A clean, shareable image of just the headline numbers — e.g. for a report
-# cover slide or a social post, separate from the full dashboard.
 
 fig, ax = plt.subplots(figsize=(8, 5))
 ax.axis('off')
