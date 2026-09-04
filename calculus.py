@@ -12,8 +12,6 @@ We are managing a **Recirculating Aquaculture System (RAS)** for raising Atlanti
 3. Predict the total biomass of a single fish at harvest using the FTC.
 4. Visualize the data and the accumulated totals.
 
-
-
 ### Cell 1: Import Required Libraries
 
 import numpy as np
