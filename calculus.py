@@ -229,7 +229,7 @@ print("  - The Riemann sum (using discrete data) is an approximation.")
 print("  - The FTC (using a continuous model) gives the exact area under the curve.")
 print("  - In real aquaculture, you use Riemann sums for sensor data and FTC for mathematical models.")
 
-### Cell 9: Combined Dashboard (All Visuals in One Figure)
+### Cell 9: Combined Dashboard
    
 fig, axes = plt.subplots(2, 3, figsize=(18, 10))
 
