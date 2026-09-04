@@ -15,8 +15,6 @@ We are managing a **Recirculating Aquaculture System (RAS)** for raising Atlanti
 
 
 ### Cell 1: Import Required Libraries
-Run this cell first to import everything we need.
-
 
 import numpy as np
 import matplotlib.pyplot as plt
