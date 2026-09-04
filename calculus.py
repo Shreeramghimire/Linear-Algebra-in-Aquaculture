@@ -157,7 +157,7 @@ initial_weight = 50  # grams
 final_weight = initial_weight + total_gain
 print(f"Final weight at harvest (Day 120): {final_weight:.2f} grams")
 
-### Cell 7: Create a Growth Curve Visualization
+### Cell 7: Creating a Growth Curve Visualization
 
 # Convert symbolic expressions to numerical functions for plotting
 G_num = lambdify(t, G_t, 'numpy')
@@ -178,7 +178,7 @@ ax1.set_ylabel('Growth Rate (grams/day)')
 ax1.set_title('Daily Growth Rate of Atlantic Salmon')
 ax1.grid(True, alpha=0.3)
 
-# Bottom: Total Weight (Accumulation)
+# Bottom: Total Weight 
 ax2.plot(days, total_weights, 'g-', linewidth=2, label='Total Weight')
 ax2.scatter([0, 120], [initial_weight, final_weight], color='red', s=100, zorder=5, 
             label=f'Start: {initial_weight}g, Harvest: {final_weight:.1f}g')
