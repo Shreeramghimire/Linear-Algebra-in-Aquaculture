@@ -2,11 +2,11 @@
 
 ### Scenario
 
-You are managing a **Recirculating Aquaculture System (RAS)** for raising Atlantic Salmon. You have:
+We are managing a **Recirculating Aquaculture System (RAS)** for raising Atlantic Salmon. You have:
 1. **Sensor data** measuring oxygen consumption rate every 2 hours for a 24-hour period.
 2. A **mathematical model** for fish growth rate over a 120-day grow-out period.
 
-**Your Tasks:**
+**Our Tasks:**
 1. Estimate total oxygen consumed in 24 hours using a Riemann sum.
 2. Calculate the exact oxygen consumption using a fitted model and the FTC.
 3. Predict the total biomass of a single fish at harvest using the FTC.
@@ -78,14 +78,19 @@ plt.tight_layout()
 plt.show()
 
 Cell 4: Exact Integration Using FTC 
-            
-# Define the continuous model as a function
+
+# Fit a smooth cubic to the sensor data itself, rather than picking coefficients
+# by hand — an unfitted model can drift below zero (an unphysical negative
+# consumption rate) and give a nonsensical, even negative, definite integral.
+fit_coeffs = np.polyfit(time, consumption_rate, 3)
+
 def consumption_model(t):
-    return -0.025 * t**3 + 0.45 * t**2 - 1.2 * t + 0.1
+    return np.polyval(fit_coeffs, t)
 
 # Use scipy's quad function to find the definite integral (exact numerical integration)
 exact_total, error = quad(consumption_model, 0, 24)
 
+print(f"Fitted model coefficients (t^3, t^2, t^1, t^0): {fit_coeffs}")
 print(f"Exact total oxygen consumed (using FTC / numerical integration): {exact_total:.2f} mg/L")
 print(f"Right Riemann Sum estimate: {right_riemann_sum:.2f} mg/L")
 print(f"Difference (Riemann - Exact): {right_riemann_sum - exact_total:.2f} mg/L")
@@ -96,9 +101,12 @@ print(f"Percent error: {abs((right_riemann_sum - exact_total) / exact_total * 10
 time_fine = np.linspace(0, 24, 200)
 rate_fine = consumption_model(time_fine)
 
-# Calculate the accumulated oxygen (running total) using FTC Part 1
-# Antiderivative: C(t) = -0.00625*t^4 + 0.15*t^3 - 0.6*t^2 + 0.1*t
-accumulated_oxygen = -0.00625 * time_fine**4 + 0.15 * time_fine**3 - 0.6 * time_fine**2 + 0.1 * time_fine
+# Calculate the accumulated oxygen (running total) using FTC Part 1.
+# np.polyint gives the antiderivative coefficients directly from fit_coeffs,
+# so this always matches whatever model was fitted in Cell 4 (no manual algebra
+# to keep in sync).
+antideriv_coeffs = np.polyint(fit_coeffs)
+accumulated_oxygen = np.polyval(antideriv_coeffs, time_fine)
 
 fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 10))
 
@@ -128,7 +136,10 @@ plt.show()
 # Define symbolic variable
 t = sp.Symbol('t')
 
-# Define the growth rate function symbolically
+# Define the growth rate function symbolically.
+# Note: this is an illustrative growth-rate function, not fitted to real
+# biological growth data — treat downstream numbers as a worked example,
+# not a validated prediction for actual fish.
 G_t = 0.002 * t**2 + 0.15 * t + 0.5
 
 # Find the antiderivative (indefinite integral)
@@ -217,3 +228,104 @@ print("\n**Key Takeaway:**")
 print("  - The Riemann sum (using discrete data) is an approximation.")
 print("  - The FTC (using a continuous model) gives the exact area under the curve.")
 print("  - In real aquaculture, you use Riemann sums for sensor data and FTC for mathematical models.")
+
+### Cell 9: Combined Dashboard (All Visuals in One Figure)
+# Pulls together every plot above into a single dashboard image — handy for a
+# report, slide, or social post instead of six separate figures.
+
+fig, axes = plt.subplots(2, 3, figsize=(18, 10))
+
+# Panel 1: Riemann sum rectangles
+ax = axes[0, 0]
+ax.plot(time, consumption_rate, 'bo-', label='Sensor Data', linewidth=2, markersize=6)
+for i in range(1, len(time)):
+    x_left = time[i-1]
+    y_height = consumption_rate[i]
+    ax.add_patch(plt.Rectangle((x_left, 0), delta_t, y_height,
+                               facecolor='red', alpha=0.3, edgecolor='red'))
+ax.set_title('Right Riemann Sum')
+ax.set_xlabel('Time (hours)')
+ax.set_ylabel('O2 Rate (mg/L/hr)')
+ax.legend(fontsize=8)
+
+# Panel 2: Fitted continuous model vs. sensor data
+ax = axes[0, 1]
+ax.plot(time_fine, rate_fine, 'b-', label='Fitted Model', linewidth=2)
+ax.scatter(time, consumption_rate, color='red', s=30, label='Sensor Data', zorder=5)
+ax.set_title('Oxygen Consumption Model')
+ax.set_xlabel('Time (hours)')
+ax.set_ylabel('O2 Rate (mg/L/hr)')
+ax.legend(fontsize=8)
+
+# Panel 3: Accumulated oxygen (FTC Part 1)
+ax = axes[0, 2]
+ax.plot(time_fine, accumulated_oxygen, 'g-', linewidth=2)
+ax.axhline(y=exact_total, color='purple', linestyle='--', label=f'Total = {exact_total:.2f} mg/L')
+ax.set_title('Accumulated Oxygen (FTC)')
+ax.set_xlabel('Time (hours)')
+ax.set_ylabel('Total O2 (mg/L)')
+ax.legend(fontsize=8)
+
+# Panel 4: Growth rate
+ax = axes[1, 0]
+ax.plot(days, growth_rates, 'b-', linewidth=2)
+ax.axhline(y=0, color='black', linestyle='-', alpha=0.3)
+ax.set_title('Daily Growth Rate')
+ax.set_xlabel('Time (days)')
+ax.set_ylabel('Growth Rate (g/day)')
+
+# Panel 5: Growth curve
+ax = axes[1, 1]
+ax.plot(days, total_weights, 'g-', linewidth=2)
+ax.scatter([0, 120], [initial_weight, float(final_weight)], color='red', s=60, zorder=5)
+ax.set_title('Fish Growth Curve')
+ax.set_xlabel('Time (days)')
+ax.set_ylabel('Total Weight (g)')
+
+# Panel 6: text summary of the headline numbers
+pct_err = abs((right_riemann_sum - exact_total) / exact_total * 100)
+axes[1, 2].axis('off')
+axes[1, 2].text(0.05, 0.85, 'Summary', fontsize=14, fontweight='bold')
+axes[1, 2].text(0.05, 0.68, f'O2 (Riemann): {right_riemann_sum:.2f} mg/L')
+axes[1, 2].text(0.05, 0.56, f'O2 (FTC): {exact_total:.2f} mg/L')
+axes[1, 2].text(0.05, 0.44, f'Difference: {pct_err:.2f}%')
+axes[1, 2].text(0.05, 0.28, f'Stocking wt: {initial_weight} g')
+axes[1, 2].text(0.05, 0.16, f'Harvest wt: {float(final_weight):.1f} g')
+
+fig.suptitle('RAS Oxygen & Growth Analysis Dashboard', fontsize=16, fontweight='bold')
+plt.tight_layout()
+plt.savefig('ras_dashboard.png', dpi=150, bbox_inches='tight')
+plt.show()
+
+### Cell 10: Standalone Results Summary Image
+# A clean, shareable image of just the headline numbers — e.g. for a report
+# cover slide or a social post, separate from the full dashboard.
+
+fig, ax = plt.subplots(figsize=(8, 5))
+ax.axis('off')
+
+summary_rows = [
+    ("Right Riemann Sum (O2, 24h)", f"{right_riemann_sum:.2f} mg/L"),
+    ("FTC / Exact Integration (O2, 24h)", f"{exact_total:.2f} mg/L"),
+    ("Percent Difference", f"{pct_err:.2f}%"),
+    ("Stocking Weight", f"{initial_weight} g"),
+    ("Harvest Weight (Day 120, FTC)", f"{float(final_weight):.1f} g"),
+    ("Total Biomass Gain", f"{float(total_gain):.1f} g"),
+]
+
+table = ax.table(cellText=summary_rows, colLabels=["Metric", "Value"],
+                  cellLoc='left', loc='center', colWidths=[0.65, 0.35])
+table.auto_set_font_size(False)
+table.set_fontsize(12)
+table.scale(1, 2.2)
+for (row, col), cell in table.get_celld().items():
+    if row == 0:
+        cell.set_text_props(fontweight='bold', color='white')
+        cell.set_facecolor('#2c7fb8')
+    else:
+        cell.set_facecolor('#f0f8ff' if row % 2 == 0 else 'white')
+
+ax.set_title('RAS Calculus Analysis — Key Results', fontsize=14, fontweight='bold', pad=20)
+plt.tight_layout()
+plt.savefig('ras_results_summary.png', dpi=150, bbox_inches='tight')
+plt.show()
