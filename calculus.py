@@ -2,7 +2,7 @@
 
 ### Scenario
 
-We are managing a **Recirculating Aquaculture System (RAS)** for raising Atlantic Salmon. You have:
+We are managing a **Recirculating Aquaculture System (RAS)** for raising Atlantic Salmon. We have:
 1. **Sensor data** measuring oxygen consumption rate every 2 hours for a 24-hour period.
 2. A **mathematical model** for fish growth rate over a 120-day grow-out period.
 
@@ -17,7 +17,7 @@ We are managing a **Recirculating Aquaculture System (RAS)** for raising Atlanti
 ### Cell 1: Import Required Libraries
 Run this cell first to import everything we need.
 
-```python
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import trapezoid
