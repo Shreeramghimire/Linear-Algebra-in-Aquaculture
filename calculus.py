@@ -20,7 +20,7 @@ Run this cell first to import everything we need.
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
-import scipy.integrate.trapezoid
+from scipy.integrate import trapezoid
 from scipy.integrate import quad
 import sympy as sp
 from sympy import symbols, integrate, lambdify
