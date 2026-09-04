@@ -87,7 +87,7 @@ fit_coeffs = np.polyfit(time, consumption_rate, 3)
 def consumption_model(t):
     return np.polyval(fit_coeffs, t)
 
-# Use scipy's quad function to find the definite integral (exact numerical integration)
+# Use scipy's quad function to find the definite integral 
 exact_total, error = quad(consumption_model, 0, 24)
 
 print(f"Fitted model coefficients (t^3, t^2, t^1, t^0): {fit_coeffs}")
@@ -230,9 +230,7 @@ print("  - The FTC (using a continuous model) gives the exact area under the cur
 print("  - In real aquaculture, you use Riemann sums for sensor data and FTC for mathematical models.")
 
 ### Cell 9: Combined Dashboard (All Visuals in One Figure)
-# Pulls together every plot above into a single dashboard image — handy for a
-# report, slide, or social post instead of six separate figures.
-
+   
 fig, axes = plt.subplots(2, 3, figsize=(18, 10))
 
 # Panel 1: Riemann sum rectangles
