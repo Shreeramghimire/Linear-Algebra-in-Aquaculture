@@ -21,7 +21,7 @@ Run this cell first to import everything we need.
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.integrate.trapezoid
-import scipy.integrate.quad
+from scipy.integrate import quad
 import sympy as sp
 from sympy import symbols, integrate, lambdify
 
