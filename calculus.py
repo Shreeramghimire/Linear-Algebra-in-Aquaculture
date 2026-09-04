@@ -293,7 +293,7 @@ plt.tight_layout()
 plt.savefig('ras_dashboard.png', dpi=150, bbox_inches='tight')
 plt.show()
 
-### Cell 10: Standalone Results Summary Image
+### Cell 10: Results Summary Image
 
 fig, ax = plt.subplots(figsize=(8, 5))
 ax.axis('off')
