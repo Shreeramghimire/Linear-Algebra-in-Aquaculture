@@ -76,7 +76,7 @@ $$
 R(t) = 100t + 10t^2
 $$
    
-*(Check: The derivative of $\ 100t + 10t^2\$ is $\ 100 + 20t\$, which matches our rate.)*
+*(Check: The derivative of $\ (100t + 10t^2\)$ is $\ (100 + 20t\)$, which matches our rate.)*
 
 2. Apply FTC Part 2:
    
