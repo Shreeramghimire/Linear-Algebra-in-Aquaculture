@@ -9,7 +9,7 @@ For an aquaculturist, this means: If we know the *rate* at which our fish are gr
 ## 1. The Two Parts of the FTC 
 
 ### Part 1: The "Rate of Accumulation" Rule
-> *If you have a running total  g(x) of something (like total oxygen added up from time 0 to time  x , the **instantaneous rate** at which that total is changing at time x is just the original function f(x) .*
+> *If we have a running total  g(x) of something (like total oxygen added up from time 0 to time  x), the **instantaneous rate** at which that total is changing at time x is just the original function f(x) .*
 
 **Mathematically:**
 
@@ -19,7 +19,7 @@ $$
 
 **In Aquaculture:** 
 
-Imagine f(t) is the *rate* of feed going into a tank (kg/hour). If g(x) is the *total* feed that has been added up to hour x , then the derivative of the total feed g'(x) tells you exactly how fast feed is being added *right now*, f(x). You don't have to recalculate the total; the rate is baked into the total.
+Lets imagine f(t) is the *rate* of feed going into a tank (kg/hour). If g(x) is the *total* feed that has been added up to hour x , then the derivative of the total feed g'(x) tells you exactly how fast feed is being added *right now*, f(x). We don't have to recalculate the total; the rate is baked into the total.
 
 ---
 
