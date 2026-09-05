@@ -64,7 +64,7 @@ $$
 r(t) = 100 + 20t \quad \text{(kg per hour)}
 $$
 
-where \ (t \) is the time in hours after 8:00 AM.
+where $t$ is the time in hours after 8:00 AM.
 
 **Question:** How much total feed is dispensed between \( t = 1 \) (9:00 AM) and \( t = 4 \) (12:00 PM)?
 
