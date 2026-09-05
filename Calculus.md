@@ -33,7 +33,8 @@ $$
 \int_{a}^{b} f(x) \, dx = F(b) - F(a)
 $$
 
-**Aquaculture Translation:** 
+**In Aquaculture:** 
+
 If f(x) is the **growth rate** of your fish (grams/day), and you know the antiderivative F(x) (which represents the *total weight formula*), then the total weight gained between Day a and Day b is simply **Weight at Day b minus Weight at Day a**. No infinite rectangles required!
 
 ---
