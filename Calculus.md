@@ -187,12 +187,12 @@ $$
 
 ---
 
-## 5. Summary for Your Code/Repo
+## 5. Summary for Code/Repo
 
-If you are writing a Python script or an R script for aquaculture data:
+If someone is writing a Python script or an R script for aquaculture data:
 
-1. **If you have discrete sensor data** (e.g., readings every minute) → Use a **Riemann Sum** (trapz function in Python/NumPy).
-2. **If you have a mathematical equation** for the rate of change (e.g., $\( f(t) = at^2 + bt + c \))$ → Use the **Fundamental Theorem of Calculus**. 
+1. **If there is discrete sensor data** (e.g., readings every minute) → Use a **Riemann Sum** (trapz function in Python/NumPy).
+2. **If there is a mathematical equation** for the rate of change (e.g., $\( f(t) = at^2 + bt + c \))$ → Use the **Fundamental Theorem of Calculus**. 
    - Use `sympy` (Python) to find the antiderivative symbolically.
    - Evaluate it at your start and end times.
 
