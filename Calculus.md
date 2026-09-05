@@ -45,7 +45,7 @@ Without the FTC:
 
 - We collect sensor data every 10 seconds.
 - We multiply each reading by 10 seconds and add them all up (Riemann sums).
-- If We miss a data point, our estimate is off.
+- If we miss a data point, our estimate is off.
 
 With the FTC:
 - We fit a continuous mathematical model to your sensor data (e.g., Oxygen depletion follows a polynomial curve).
@@ -104,7 +104,7 @@ $$
 
 ### Example 2: The "Running Total" (Using FTC Part 1)
 
-You have a sensor that measures the rate of oxygen production by algae in a biofloc tank:
+We have a sensor that measures the rate of oxygen production by algae in a biofloc tank:
 
 $$
 p(t) = 5 + \sin(t) \quad \text{(mg/L per hour)}
