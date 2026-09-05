@@ -45,12 +45,12 @@ Without the FTC:
 
 - We collect sensor data every 10 seconds.
 - We multiply each reading by 10 seconds and add them all up (Riemann sums).
-- If We miss a data point, your estimate is off.
+- If We miss a data point, our estimate is off.
 
 With the FTC:
-- You fit a continuous mathematical model to your sensor data (e.g., Oxygen depletion follows a polynomial curve).
-- You find the antiderivative of that model.
-- You evaluate it at the start and end times. (**Instant exact total**)
+- We fit a continuous mathematical model to your sensor data (e.g., Oxygen depletion follows a polynomial curve).
+- We find the antiderivative of that model.
+- We evaluate it at the start and end times. (**Instant exact total**)
 
 ---
 
