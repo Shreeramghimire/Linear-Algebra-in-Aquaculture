@@ -43,9 +43,9 @@ If f(x) is the **growth rate** of your fish (grams/day), and you know the antide
 
 Without the FTC:
 
-- You collect sensor data every 10 seconds.
-- You multiply each reading by 10 seconds and add them all up (Riemann sums).
-- If you miss a data point, your estimate is off.
+- We collect sensor data every 10 seconds.
+- We multiply each reading by 10 seconds and add them all up (Riemann sums).
+- If We miss a data point, your estimate is off.
 
 With the FTC:
 - You fit a continuous mathematical model to your sensor data (e.g., Oxygen depletion follows a polynomial curve).
