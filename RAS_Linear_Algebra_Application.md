@@ -154,6 +154,10 @@ where:
 | **Adjusting aeration** | Changing the oxygen landscape |
 | **Adding carbon sources** | Shifting the bacterial food web |
 
+These interventions are "teleportation" steps; they prevent the system from collapsing into a dead-end (e.g., pH crashing to 5.0, killing bacteria) and guide the system toward the stable steady-state.
+
+
+
 ## References
 
 Fu, S., Liu, Y., Li, X., Tu, J., Lan, R., & Tian, H. (2015). A preliminary stochastic model for managing microorganisms in a recirculating aquaculture system. Annals of Microbiology, 65(2), 1119-1129.
