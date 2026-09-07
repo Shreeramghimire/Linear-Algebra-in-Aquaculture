@@ -94,6 +94,16 @@ In the context of our RAS:
 
 ## Part 3: Bacterial Population Dynamics as a Network
 
+Our RAS biofilter isn't a single species—it's a complex web of interacting bacterial species:
+
+- Nitrosomonas: Converts ammonia to nitrite
+
+- Nitrobacter: Converts nitrite to nitrate
+
+- Other heterotrophs: Consume organic matter
+
+This creates a food web where each species links to the next.
+
 
 
 ## References
