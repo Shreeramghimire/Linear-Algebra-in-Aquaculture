@@ -52,7 +52,7 @@ class BaseConditions:
  
 BASE = BaseConditions()
  
-# Distributions used for Monte Carlo sampling (mean, std) — edit freely.
+# Distributions used for Monte Carlo sampling (mean, std)
 # Keys must match BaseConditions field names.
 PARAM_DISTRIBUTIONS = {
     "NH3_0":       (BASE.NH3_0, 1.0),
