@@ -90,7 +90,7 @@ In the context of our RAS:
 
 - Steady State: The stable bacterial equilibrium we're aiming for before introducing fish
 
-<**A stochastic model for managing microorganisms in RAS was developed using Monte Carlo simulation to predict the growth of key microorganisms and monitor population dynamics** (Fu, Songzhe, et al., 2015)
+> **A stochastic model for managing microorganisms in RAS was developed using Monte Carlo simulation to predict the growth of key microorganisms and monitor population dynamics** (Fu, Songzhe, et al., 2015)
 
 
 ## References
