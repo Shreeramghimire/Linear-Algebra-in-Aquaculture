@@ -62,4 +62,6 @@ During the bacterial maturation period :
 
 **Practical implication:** The speed of our cycling is determined by how close the dominant eigenvalue is to zero. A value close to zero means a slow, drawn-out cycle.
 
+This stability analysis is routinely used in aquaculture research. Studies on water quality dynamics have used eigenvalue analysis of Jacobian matrices to determine local asymptotic stability of aquaculture systems.
+
 
