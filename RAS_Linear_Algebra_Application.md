@@ -9,3 +9,6 @@ I explain these mathematical concepts in plain language, connect them to the rea
 
 Imagine we have a system that evolves over time: the concentrations of ammonia, nitrite, bacteria, and oxygen in our RAS tank. The system can be described by a collection of equations that govern how each variable changes based on the others. This system can be represented as a matrix 
 A.
+
+An eigenvalue (λ) is a number that tells you whether the system will settle down to a stable state or spiral out of control. It answers the question: "If I disturb this system, will it recover, or will it get worse?"
+
