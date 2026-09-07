@@ -22,3 +22,4 @@ The eigenvalues of a system's matrix determine its stability:
 
 **The Mathematical Framework**
 
+The state of the RAS water can be represented as a vector:
