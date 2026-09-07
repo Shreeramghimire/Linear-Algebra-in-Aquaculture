@@ -82,4 +82,6 @@ As **k→∞**, the system approaches the steady-state vector, the stable bacter
 
 A **Markov chain** is a sequence of states where the next state depends only on the current state. The bacterial population in our RAS follows this principle: tomorrow's bacterial community depends primarily on today's conditions (temperature, pH, nutrient availability), not on the entire history.
 
+In the context of your RAS:
+
 
