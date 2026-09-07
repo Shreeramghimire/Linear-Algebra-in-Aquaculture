@@ -64,4 +64,5 @@ During the bacterial maturation period :
 
 This stability analysis is routinely used in aquaculture research. Studies on water quality dynamics have used eigenvalue analysis of Jacobian matrices to determine local asymptotic stability of aquaculture systems.
 
+## Part 2: The Power Method and Markov Chains
 
