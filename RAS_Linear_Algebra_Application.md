@@ -14,7 +14,7 @@ An eigenvalue (λ) is a number that tells you whether the system will settle dow
 
 The eigenvalues of a system's matrix determine its stability:
 
-| Condition | Meaning for RAS |
+| Conditions | Meaning for RAS |
 |---|---|
 | **All eigenvalues have negative real parts** | The system is **locally asymptotically stable**. Disturbances decay over time. **This is what we're waiting for during cycling.** |
 | **Any eigenvalue has a positive real part** | The system is **unstable**. Ammonia or nitrite may accumulate uncontrollably. |
