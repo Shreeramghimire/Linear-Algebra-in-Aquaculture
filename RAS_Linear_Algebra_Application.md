@@ -7,7 +7,7 @@ I explain these mathematical concepts in plain language, connect them to the rea
 
 ## Part 1: Eigenvalues and System Stability
 
-Imagine we have a system that evolves over time: the concentrations of ammonia, nitrite, bacteria, and oxygen in our RAS tank. The system can be described by a collection of equations that govern how each variable changes based on the others. This system can be represented as a matrix 
+Imagine we have a system that evolves: the concentrations of ammonia, nitrite, bacteria, and oxygen in our RAS tank. The system can be described by a collection of equations that govern how each variable changes based on the others. This system can be represented as a matrix 
 A.
 
 An eigenvalue (λ) is a number that tells you whether the system will settle down to a stable state or spiral out of control. It answers the question: "If I disturb this system, will it recover, or will it get worse?"
@@ -89,5 +89,12 @@ In the context of our RAS:
 - Transition Matrix: Governs how the community shifts from one state to another
 
 - Steady State: The stable bacterial equilibrium we're aiming for before introducing fish
+
+<**A stochastic model for managing microorganisms in RAS was developed using Monte Carlo simulation to predict the growth of key microorganisms and monitor population dynamics** (Fu, Songzhe, et al., 2015)
+
+
+## References
+
+Fu, S., Liu, Y., Li, X., Tu, J., Lan, R., & Tian, H. (2015). A preliminary stochastic model for managing microorganisms in a recirculating aquaculture system. Annals of Microbiology, 65(2), 1119-1129.
 
 
