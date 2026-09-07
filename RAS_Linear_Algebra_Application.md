@@ -113,6 +113,20 @@ Just as PageRank assigns importance to webpages based on incoming links, we can 
 
 A species' "bacterial PageRank" is its role in keeping the system stable. The most connected species (with the highest eigenvector centrality) are the most critical to maintain during the maturation period (Shuai et al., 2023).
 
+**Community Dynamics**
+
+Research has shown that bacterial community structure in RAS is influenced by multiple environmental factors:
+
+- Influent composition
+
+- Temperature
+
+- Reactor configuration
+
+- Solids retention time (SRT) 
+
+These factors essentially change the "link matrix" of the bacterial network, shifting the importance (PageRank) of certain species. A temperature drop or oxygen spike can cause a cascade of shifts in the bacterial community, a phenomenon well-studied in bacterial population dynamics.
+
 ## References
 
 Fu, S., Liu, Y., Li, X., Tu, J., Lan, R., & Tian, H. (2015). A preliminary stochastic model for managing microorganisms in a recirculating aquaculture system. Annals of Microbiology, 65(2), 1119-1129.
