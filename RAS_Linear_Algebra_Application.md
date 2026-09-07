@@ -156,6 +156,13 @@ where:
 
 These interventions are "teleportation" steps; they prevent the system from collapsing into a dead-end (e.g., pH crashing to 5.0, killing bacteria) and guide the system toward the stable steady-state.
 
+**The Mathematical Impact of Interventions**
+
+Each intervention modifies the system's matrix A, changing its eigenvalues. When you add:
+
+Bicarbonate: You alter the pH-dependent equations, shifting eigenvalues toward negative values.
+
+Oxygen: You modify the bacterial growth rate parameters, affecting stability 
 
 
 ## References
