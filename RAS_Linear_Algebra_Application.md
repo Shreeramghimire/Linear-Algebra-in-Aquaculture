@@ -49,3 +49,5 @@ The eigenvalues of A are the solutions to:
 $$
 \det(A-\lambda I)=0
 $$
+
+**What This Means for RAS:**
