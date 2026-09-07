@@ -5,5 +5,5 @@ When we introduce bacteria into a new RAS tank and wait for the system to "stabi
 
 I explain these mathematical concepts in plain language, connect them to the real-world challenge of stabilizing bacterial populations in RAS, and provide references for further reading.
 
-##Part 1: Eigenvalues and System Stability
+## Part 1: Eigenvalues and System Stability
 
