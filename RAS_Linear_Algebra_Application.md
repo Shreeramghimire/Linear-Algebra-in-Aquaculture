@@ -19,3 +19,6 @@ The eigenvalues of a system's matrix determine its stability:
 | **All eigenvalues have negative real parts** | The system is **locally asymptotically stable**. Disturbances decay over time. **This is what we're waiting for during cycling.** |
 | **Any eigenvalue has a positive real part** | The system is **unstable**. Ammonia or nitrite may accumulate uncontrollably. |
 | **Eigenvalues with imaginary parts** | The system may experience **damped oscillations** before settling, for example, transient spikes in ammonia/nitrite as bacterial populations fluctuate. |
+
+**The Mathematical Framework**
+
