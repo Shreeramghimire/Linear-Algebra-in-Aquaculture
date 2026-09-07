@@ -34,3 +34,6 @@ $$
 \text{Dissolved Oxygen}
 \end{bmatrix}
 $$
+
+
+The rate of change of this system over time is modeled by:
