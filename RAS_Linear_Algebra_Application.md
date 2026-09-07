@@ -133,9 +133,9 @@ Studies have demonstrated that while bacterial community structure is influenced
 
 In PageRank, teleportation is the concept that a user can randomly jump to any page, regardless of links. Mathematically, it's expressed as:
 
-\[
+$$
 G = \alpha P + (1-\alpha)M
-\]
+$$
 
 ## References
 
