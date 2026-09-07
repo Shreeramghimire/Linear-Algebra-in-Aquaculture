@@ -54,3 +54,9 @@ $$
 
 During the bacterial maturation period :
 
+- Initially, the system has eigenvalues with positive real parts; ammonia and nitrite levels spike as bacterial population is low.
+
+- Over time, as bacteria establish, the eigenvalues gradually shift toward negative values.
+
+- When the largest eigenvalue (the "dominant" one) becomes negative, your system is ready for fish.
+  
