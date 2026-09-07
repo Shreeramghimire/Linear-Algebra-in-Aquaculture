@@ -7,3 +7,5 @@ I explain these mathematical concepts in plain language, connect them to the rea
 
 ## Part 1: Eigenvalues and System Stability
 
+Imagine we have a system that evolves over time: the concentrations of ammonia, nitrite, bacteria, and oxygen in our RAS tank. The system can be described by a collection of equations that govern how each variable changes based on the others. This system can be represented as a matrix 
+A.
