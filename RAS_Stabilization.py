@@ -122,3 +122,49 @@ def is_stable(state, p: BaseConditions):
     stable = np.all(eigvals.real < 0)
     return stable, eigvals
  
+
+# 4. STABILIZATION TIME DEFINITION
+
+ 
+def find_stabilization_time(sol, nh3_threshold=0.5, no2_threshold=0.5):
+    """
+    First time index where NH3 and NO2 both drop below threshold
+    AND stay below it for the rest of the simulation.
+    """
+    NH3, NO2 = sol.y[0], sol.y[1]
+    below = (NH3 < nh3_threshold) & (NO2 < no2_threshold)
+    # find first index after which 'below' is True for all remaining points
+    for i in range(len(below)):
+        if np.all(below[i:]):
+            return sol.t[i]
+    return np.nan  # never stabilized within simulated window
+ 
+
+# 5. MONTE CARLO DRIVER
+
+ 
+def sample_conditions(base: BaseConditions, distributions: dict, rng):
+    """Draw one randomized BaseConditions instance from distributions."""
+    kwargs = asdict(base)
+    for key, (mean, std) in distributions.items():
+        kwargs[key] = max(0.0, rng.normal(mean, std))  # clip negatives
+    return BaseConditions(**kwargs)
+ 
+def monte_carlo_run(n_runs=500, t_span=(0, 60), seed=42):
+    rng = np.random.default_rng(seed)
+    stabilization_times = []
+    stability_flags = []
+ 
+    for _ in range(n_runs):
+        p = sample_conditions(BASE, PARAM_DISTRIBUTIONS, rng)
+        sol = run_simulation(p, t_span=t_span)
+        t_stab = find_stabilization_time(sol)
+        stabilization_times.append(t_stab)
+ 
+        # Check stability at the final simulated state
+        final_state = sol.y[:, -1]
+        stable, _ = is_stable(final_state, p)
+        stability_flags.append(stable)
+ 
+    return np.array(stabilization_times), np.array(stability_flags)
+ 
