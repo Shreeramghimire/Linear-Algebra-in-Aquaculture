@@ -72,7 +72,7 @@ When we start cycling our tank, we don't know the final stable state. We monitor
 
 | **Day** | **Mathematical Description** |
 |---|---|
-| **Day 0** | Initial state vector: \(\vec{x}_0\) (high ammonia, low bacteria) |
+| **Day 0** | Initial state vector: $(\vec{x}_0\)$ (high ammonia, low bacteria) |
 | **Day 1** | $(\vec{x}_1 = A\vec{x}_0\)$ |
 | **Day 2** | $(\vec{x}_2 = A\vec{x}_1 = A^2\vec{x}_0\)$ |
 | **...** | ... |
