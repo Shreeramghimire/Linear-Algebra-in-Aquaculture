@@ -77,3 +77,5 @@ When we start cycling our tank, we don't know the final stable state. We monitor
 | **Day 2** | $(\vec{x}_2 = A\vec{x}_1 = A^2\vec{x}_0\)$ |
 | **...** | ... |
 | **Day k** | $(\vec{x}_k = A^k\vec{x}_0\)$ |
+
+As **k→∞**, the system approaches the steady-state vector—the stable bacterial community composition and water chemistry
