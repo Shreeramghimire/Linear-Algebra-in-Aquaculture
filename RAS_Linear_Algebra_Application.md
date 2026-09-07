@@ -111,10 +111,14 @@ Just as PageRank assigns importance to webpages based on incoming links, we can 
 - *Nitrosomonas* → produces nitrite (food for *Nitrobacter*)
 - *Nitrobacter* → produces nitrate (less toxic, but can accumulate)
 
-
+A species' "bacterial PageRank" is its role in keeping the system stable. The most connected species (with the highest eigenvector centrality) are the most critical to maintain during the maturation period (Shuai et al., 2023).
 
 ## References
 
 Fu, S., Liu, Y., Li, X., Tu, J., Lan, R., & Tian, H. (2015). A preliminary stochastic model for managing microorganisms in a recirculating aquaculture system. Annals of Microbiology, 65(2), 1119-1129.
+
+Shuai, Y., Maslovskaya, A. G., & Kuttler, C. (2023). Modeling of bacterial communication in the extended range of population dynamics. Математическая биология и биоинформатика, 18(1), 89-104.
+
+
 
 
