@@ -108,6 +108,8 @@ This creates a food web where each species links to the next.
 
 Just as PageRank assigns importance to webpages based on incoming links, we can think of bacterial species having "importance" based on the flow of nutrients:
 
+- *Nitrosomonas* → produces nitrite (food for *Nitrobacter*)
+- *Nitrobacter* → produces nitrate (less toxic, but can accumulate)
 
 
 
