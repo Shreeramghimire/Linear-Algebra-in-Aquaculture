@@ -164,15 +164,20 @@ Each intervention modifies the system's matrix A, changing its eigenvalues. When
 
 - Oxygen: You modify the bacterial growth rate parameters, affecting stability 
 
+Modern RAS management uses **Model Predictive Control**, a rolling horizon optimization that continuously adjusts system parameters to maintain stability (Zhang et al., 2023). This is conceptually similar to PageRank's iterative power method, applied to real-time system control (Gazi, 2012).
+
+MPC approaches for RAS integrated with renewable energy systems simulate thermal and electricity balances and make real-time optimal scheduling plans. Stochastic models incorporating Monte Carlo simulation have been developed to predict microbial populations and guide operational decisions.
 
 ## References
 
 Fu, S., Liu, Y., Li, X., Tu, J., Lan, R., & Tian, H. (2015). A preliminary stochastic model for managing microorganisms in a recirculating aquaculture system. Annals of Microbiology, 65(2), 1119-1129.
 
+Gazi, N. H. (2012). Dynamics of populations in fish farm: Analysis of stability and direction of Hopf-bifurcating periodic oscillation. Applied Mathematical Modelling, 36(5), 2118-2127.
+
 Isazadeh, S. (2014). Biosolids minimization by partial ozonation of return activated sludge: model development and bacterial population dynamics. McGill University (Canada).
 
 Shuai, Y., Maslovskaya, A. G., & Kuttler, C. (2023). Modeling of bacterial communication in the extended range of population dynamics. Математическая биология и биоинформатика, 18(1), 89-104.
 
-
+Zhang, R., Chen, T., & Short, M. (2023). A model predictive control approach for recirculating aquaculture systems integrated with sustainable hybrid energy systems. In Computer Aided Chemical Engineering (Vol. 52, pp. 209-214). Elsevier.
 
 
