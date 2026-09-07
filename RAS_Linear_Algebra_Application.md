@@ -38,6 +38,6 @@ $$
 
 The rate of change of this system over time is modeled by:
 
-\[
+$$
 \frac{d\vec{x}}{dt}=A\vec{x}
-\]
+$$
