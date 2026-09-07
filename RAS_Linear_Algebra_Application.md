@@ -104,6 +104,11 @@ Our RAS biofilter isn't a single species—it's a complex web of interacting bac
 
 This creates a food web where each species links to the next.
 
+**The PageRank Analogy**
+
+Just as PageRank assigns importance to webpages based on incoming links, we can think of bacterial species having "importance" based on the flow of nutrients:
+
+
 
 
 ## References
