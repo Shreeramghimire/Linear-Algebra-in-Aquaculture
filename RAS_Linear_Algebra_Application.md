@@ -160,9 +160,9 @@ These interventions are "teleportation" steps; they prevent the system from coll
 
 Each intervention modifies the system's matrix A, changing its eigenvalues. When you add:
 
-Bicarbonate: You alter the pH-dependent equations, shifting eigenvalues toward negative values.
+- Bicarbonate: You alter the pH-dependent equations, shifting eigenvalues toward negative values.
 
-Oxygen: You modify the bacterial growth rate parameters, affecting stability 
+- Oxygen: You modify the bacterial growth rate parameters, affecting stability 
 
 
 ## References
