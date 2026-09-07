@@ -137,6 +137,15 @@ $$
 G = \alpha P + (1-\alpha)M
 $$
 
+where:
+
+- P is the link transition matrix
+
+- α is the damping factor (≈0.85)
+
+- M is the teleportation matrix (equal probability of jumping to any page)
+
+
 ## References
 
 Fu, S., Liu, Y., Li, X., Tu, J., Lan, R., & Tian, H. (2015). A preliminary stochastic model for managing microorganisms in a recirculating aquaculture system. Annals of Microbiology, 65(2), 1119-1129.
