@@ -92,6 +92,9 @@ In the context of our RAS:
 
 > **A stochastic model for managing microorganisms in RAS was developed using Monte Carlo simulation to predict the growth of key microorganisms and monitor population dynamics** (Fu, Songzhe, et al., 2015)
 
+## Part 3: Bacterial Population Dynamics as a Network
+
+
 
 ## References
 
