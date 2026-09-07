@@ -167,4 +167,29 @@ def monte_carlo_run(n_runs=500, t_span=(0, 60), seed=42):
         stability_flags.append(stable)
  
     return np.array(stabilization_times), np.array(stability_flags)
+
+
+# 6. EXAMPLE USAGE (run this cell in Jupyter)
+
+if __name__ == "__main__":
+    # --- single deterministic run with BASE conditions ---
+    sol = run_simulation(BASE)
+    t_stab = find_stabilization_time(sol)
+    final_state = sol.y[:, -1]
+    stable, eigvals = is_stable(final_state, BASE)
  
+    print(f"Deterministic stabilization time: {t_stab:.1f} days")
+    print(f"Stable at final state: {stable}")
+    print(f"Eigenvalues: {eigvals}")
+ 
+    # --- Monte Carlo over uncertainty ---
+    times, flags = monte_carlo_run(n_runs=200)
+    valid = times[~np.isnan(times)]
+    print(f"\nMonte Carlo (n=200):")
+    print(f"  Stabilized in window: {len(valid)}/200")
+    if len(valid) > 0:
+        print(f"  Mean stabilization time: {valid.mean():.1f} days")
+        print(f"  90% range: {np.percentile(valid, 5):.1f} - {np.percentile(valid, 95):.1f} days")
+    print(f"  Fraction stable at final state: {flags.mean():.2%}")
+ 
+
