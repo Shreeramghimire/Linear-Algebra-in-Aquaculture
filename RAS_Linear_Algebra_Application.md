@@ -66,3 +66,6 @@ This stability analysis is routinely used in aquaculture research. Studies on wa
 
 ## Part 2: The Power Method and Markov Chains
 
+The Power Method is an iterative algorithm for approximating the dominant eigenvalue and its corresponding eigenvector of a matrix. It is the mathematical engine behind Google's PageRank algorithm and, conceptually, behind tracking our RAS bacterial population over time.
+
+
