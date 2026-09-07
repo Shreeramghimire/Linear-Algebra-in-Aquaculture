@@ -80,3 +80,6 @@ When we start cycling our tank, we don't know the final stable state. We monitor
 
 As **k→∞**, the system approaches the steady-state vector, the stable bacterial community composition and water chemistry.
 
+A **Markov chain** is a sequence of states where the next state depends only on the current state. The bacterial population in our RAS follows this principle: tomorrow's bacterial community depends primarily on today's conditions (temperature, pH, nutrient availability), not on the entire history.
+
+
