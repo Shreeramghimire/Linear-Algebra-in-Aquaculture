@@ -12,3 +12,5 @@ A.
 
 An eigenvalue (λ) is a number that tells you whether the system will settle down to a stable state or spiral out of control. It answers the question: "If I disturb this system, will it recover, or will it get worse?"
 
+The eigenvalues of a system's matrix determine its stability:
+
