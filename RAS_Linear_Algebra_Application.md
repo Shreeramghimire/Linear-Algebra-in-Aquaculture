@@ -59,4 +59,7 @@ During the bacterial maturation period :
 - Over time, as bacteria establish, the eigenvalues gradually shift toward negative values.
 
 - When the largest eigenvalue becomes negative, our system is ready for fish.
-  
+
+**Practical implication:** The speed of our cycling is determined by how close the dominant eigenvalue is to zero. A value close to zero means a slow, drawn-out cycle.
+
+
