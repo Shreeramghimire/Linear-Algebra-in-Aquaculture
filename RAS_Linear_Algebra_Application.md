@@ -127,9 +127,13 @@ Research has shown that bacterial community structure in RAS is influenced by mu
 
 These factors essentially change the "link matrix" of the bacterial network, shifting the importance (PageRank) of certain species. A temperature drop or oxygen spike can cause a cascade of shifts in the bacterial community, a phenomenon well-studied in bacterial population dynamics.
 
+Studies have demonstrated that while bacterial community structure is influenced by environmental factors, parallel drifts and convergence in community structures indicate that influent composition and geographic location significantly shape bacterial populations in RAS. Stochastic models have been developed to predict the growth of specific microorganisms in RAS, showing that microbial populations can be successfully modeled and predicted.
+
 ## References
 
 Fu, S., Liu, Y., Li, X., Tu, J., Lan, R., & Tian, H. (2015). A preliminary stochastic model for managing microorganisms in a recirculating aquaculture system. Annals of Microbiology, 65(2), 1119-1129.
+
+Isazadeh, S. (2014). Biosolids minimization by partial ozonation of return activated sludge: model development and bacterial population dynamics. McGill University (Canada).
 
 Shuai, Y., Maslovskaya, A. G., & Kuttler, C. (2023). Modeling of bacterial communication in the extended range of population dynamics. Математическая биология и биоинформатика, 18(1), 89-104.
 
