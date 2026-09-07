@@ -94,7 +94,7 @@ In the context of our RAS:
 
 ## Part 3: Bacterial Population Dynamics as a Network
 
-Our RAS biofilter isn't a single species, it's a complex web of interacting bacterial species:
+Our RAS biofilter isn't a single species; it's a complex web of interacting bacterial species:
 
 - Nitrosomonas: Converts ammonia to nitrite
 
@@ -154,7 +154,7 @@ where:
 | **Adjusting aeration** | Changing the oxygen landscape |
 | **Adding carbon sources** | Shifting the bacterial food web |
 
-These interventions are "teleportation" steps; they prevent the system from collapsing into a dead-end (e.g., pH crashing to 5.0, killing bacteria etc.) and guide the system toward the stable steady-state.
+These interventions are "teleportation" steps; they prevent the system from collapsing into a dead-end (e.g., pH crashing to 5.0, killing bacteria, etc.) and guide the system toward the stable steady-state.
 
 **The Mathematical Impact of Interventions**
 
