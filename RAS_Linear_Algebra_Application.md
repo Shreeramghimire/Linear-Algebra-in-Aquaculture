@@ -46,6 +46,6 @@ where A is the matrix describing how each variable affects the others.
 
 The eigenvalues of A are the solutions to:
 
-\[
+$$
 \det(A-\lambda I)=0
-\]
+$$
