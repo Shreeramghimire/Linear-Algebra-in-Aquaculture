@@ -42,4 +42,6 @@ $$
 \frac{d\vec{x}}{dt}=A\vec{x}
 $$
 
-where \ A\ is the matrix describing how each variable affects the others.
+where A is the matrix describing how each variable affects the others.
+
+
