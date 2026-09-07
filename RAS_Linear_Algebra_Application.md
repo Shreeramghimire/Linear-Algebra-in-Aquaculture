@@ -51,3 +51,6 @@ $$
 $$
 
 **What This Means for RAS:**
+
+During the bacterial maturation period :
+
