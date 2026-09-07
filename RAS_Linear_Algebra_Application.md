@@ -147,7 +147,12 @@ where:
 
 **Teleportation in RAS**
 
-
+| **Intervention** | **Equivalent to "Teleportation"** |
+|---|---|
+| **Adding commercial bacterial starter** | Injecting a known bacterial community directly into the system |
+| **Sodium bicarbonate (buffering pH)** | Injecting stability into the chemical matrix |
+| **Adjusting aeration** | Changing the oxygen landscape |
+| **Adding carbon sources** | Shifting the bacterial food web |
 
 ## References
 
