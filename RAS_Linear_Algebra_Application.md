@@ -145,6 +145,9 @@ where:
 
 - M is the teleportation matrix (equal probability of jumping to any page)
 
+**Teleportation in RAS**
+
+
 
 ## References
 
