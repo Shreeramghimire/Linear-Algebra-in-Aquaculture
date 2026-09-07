@@ -61,3 +61,64 @@ PARAM_DISTRIBUTIONS = {
     "mu_max_NOB":  (BASE.mu_max_NOB, 0.1),
     "DO_mgL":      (BASE.DO_mgL, 0.5),
 }
+
+ 
+
+# 2. ODE SYSTEM (Monod kinetics)
+
+ 
+def temperature_factor(T, T_ref=20.0, theta=1.072):
+    """Arrhenius-type temperature correction (common in nitrification models)."""
+    return theta ** (T - T_ref)
+ 
+def ras_dynamics(t, y, p: BaseConditions):
+    NH3, NO2, NO3, X_AOB, X_NOB = np.maximum(y, 0)  # keep non-negative
+ 
+    T_corr = temperature_factor(p.temperature_C)
+    DO_lim = p.DO_mgL / (p.Ks_DO + p.DO_mgL)
+ 
+    # Monod-limited specific growth rates
+    mu_AOB = p.mu_max_AOB * (NH3 / (p.Ks_NH3 + NH3)) * DO_lim * T_corr
+    mu_NOB = p.mu_max_NOB * (NO2 / (p.Ks_NO2 + NO2)) * DO_lim * T_corr
+ 
+    # Substrate consumption tied to growth via yield coefficients
+    dNH3 = -(mu_AOB / p.Y_AOB) * X_AOB - p.flow_exchange_rate * NH3 + p.NH3_load_rate
+    dNO2 = (mu_AOB / p.Y_AOB) * X_AOB - (mu_NOB / p.Y_NOB) * X_NOB - p.flow_exchange_rate * NO2
+    dNO3 = (mu_NOB / p.Y_NOB) * X_NOB - p.flow_exchange_rate * NO3
+ 
+    dX_AOB = (mu_AOB - p.b_AOB) * X_AOB
+    dX_NOB = (mu_NOB - p.b_NOB) * X_NOB
+ 
+    return [dNH3, dNO2, dNO3, dX_AOB, dX_NOB]
+ 
+ 
+def run_simulation(p: BaseConditions, t_span=(0, 60), n_points=600):
+    """Solve the ODE system from t_span[0] to t_span[1] days."""
+    t_eval = np.linspace(*t_span, n_points)
+    sol = solve_ivp(ras_dynamics, t_span, p.initial_state(), args=(p,),
+                     t_eval=t_eval, method="LSODA", rtol=1e-7, atol=1e-9)
+    return sol
+ 
+
+# 3. STABILITY ANALYSIS — Jacobian & eigenvalues
+
+ 
+def numerical_jacobian(state, p: BaseConditions, eps=1e-6):
+    """Finite-difference Jacobian of ras_dynamics at a given state."""
+    n = len(state)
+    J = np.zeros((n, n))
+    f0 = np.array(ras_dynamics(0, state, p))
+    for i in range(n):
+        perturbed = state.copy()
+        perturbed[i] += eps
+        f1 = np.array(ras_dynamics(0, perturbed, p))
+        J[:, i] = (f1 - f0) / eps
+    return J
+ 
+def is_stable(state, p: BaseConditions):
+    """Returns (stable: bool, eigenvalues: ndarray)."""
+    J = numerical_jacobian(state, p)
+    eigvals = np.linalg.eigvals(J)
+    stable = np.all(eigvals.real < 0)
+    return stable, eigvals
+ 
