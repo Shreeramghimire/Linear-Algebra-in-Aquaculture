@@ -50,7 +50,7 @@ $$
 \det(A-\lambda I)=0
 $$
 
-**What This Means for RAS:**
+**What this means for RAS:**
 
 During the bacterial maturation period :
 
@@ -154,7 +154,7 @@ where:
 | **Adjusting aeration** | Changing the oxygen landscape |
 | **Adding carbon sources** | Shifting the bacterial food web |
 
-These interventions are "teleportation" steps; they prevent the system from collapsing into a dead-end (e.g., pH crashing to 5.0, killing bacteria) and guide the system toward the stable steady-state.
+These interventions are "teleportation" steps; they prevent the system from collapsing into a dead-end (e.g., pH crashing to 5.0, killing bacteria etc.) and guide the system toward the stable steady-state.
 
 **The Mathematical Impact of Interventions**
 
