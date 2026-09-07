@@ -68,4 +68,4 @@ This stability analysis is routinely used in aquaculture research. Studies on wa
 
 The Power Method is an iterative algorithm for approximating the dominant eigenvalue and its corresponding eigenvector of a matrix. It is the mathematical engine behind Google's PageRank algorithm and, conceptually, behind tracking our RAS bacterial population over time.
 
-
+When we start cycling our tank, we don't know the final stable state. We monitor daily. This process is mathematically equivalent to repeatedly applying the system's transition rules:
