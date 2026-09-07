@@ -164,7 +164,7 @@ Each intervention modifies the system's matrix A, changing its eigenvalues. When
 
 - Oxygen: You modify the bacterial growth rate parameters, affecting stability 
 
-Modern RAS management uses **Model Predictive Control**, a rolling horizon optimization that continuously adjusts system parameters to maintain stability (Zhang et al., 2023). This is conceptually similar to PageRank's iterative power method, applied to real-time system control (Gazi, 2012).
+Modern RAS management uses **Model Predictive Control** (MPC), a rolling horizon optimization that continuously adjusts system parameters to maintain stability (Zhang et al., 2023). This is conceptually similar to PageRank's iterative power method, applied to real-time system control (Gazi, 2012).
 
 MPC approaches for RAS integrated with renewable energy systems simulate thermal and electricity balances and make real-time optimal scheduling plans. Stochastic models incorporating Monte Carlo simulation have been developed to predict microbial populations and guide operational decisions.
 
