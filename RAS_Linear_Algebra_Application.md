@@ -25,7 +25,7 @@ The eigenvalues of a system's matrix determine its stability:
 The state of the RAS water can be represented as a vector:
 
 $$
-\mathbf{x}(t)=
+\vec{x}(t)=
 \begin{bmatrix}
 \text{Ammonia } (NH_3) \\
 \text{Nitrite } (NO_2^-) \\
