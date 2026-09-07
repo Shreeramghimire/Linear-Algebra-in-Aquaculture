@@ -41,3 +41,7 @@ The rate of change of this system over time is modeled by:
 $$
 \frac{d\vec{x}}{dt}=A\vec{x}
 $$
+
+where 
+A
+A is the matrix describing how each variable affects the others.
