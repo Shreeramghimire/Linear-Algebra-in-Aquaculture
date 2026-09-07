@@ -82,6 +82,12 @@ As **k→∞**, the system approaches the steady-state vector, the stable bacter
 
 A **Markov chain** is a sequence of states where the next state depends only on the current state. The bacterial population in our RAS follows this principle: tomorrow's bacterial community depends primarily on today's conditions (temperature, pH, nutrient availability), not on the entire history.
 
-In the context of your RAS:
+In the context of our RAS:
+
+- States: Different bacterial community compositions (e.g., ratios of Nitrosomonas to Nitrobacter)
+
+- Transition Matrix: Governs how the community shifts from one state to another
+
+- Steady State: The stable bacterial equilibrium we're aiming for before introducing fish
 
 
