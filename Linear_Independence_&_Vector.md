@@ -62,7 +62,7 @@ $$
 {v,w}
 $$
 
-the vectors are linearly independent **if and only if** neither vector is a scalar multiple of the other.
+The vectors are linearly independent **if and only if** neither vector is a scalar multiple of the other.
 
 In geometric terms, two non-zero vectors are dependent when they point in the same or exactly opposite direction.
 
